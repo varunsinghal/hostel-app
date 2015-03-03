@@ -1,0 +1,13 @@
+<select name="category_code" id="category_option" >
+		<option value="OOP" id="OOP">OOP</option>
+		<option value="OSC" id="OSC">OSC</option>
+		<option value="OST" id="OST">OST</option>
+		<option value="OOB" id="OOB">OOB</option>
+		<option value="DOP" id="DOP">DOP</option>
+		<option value="DSC" id="DSC">DSC</option>
+		<option value="DST" id="DST">DST</option>
+		<option value="DOB" id="DOB">DOB</option>
+		<option value="KM" id="KM">KM</option>
+		<option value="NRI" id="NRI">NRI</option>
+		<option value="GOI" id="GOI">GOI (Govt of India nominee)</option>
+</select>

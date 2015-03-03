@@ -1,0 +1,541 @@
+110037, Samalkha,South West Delhi,Delhi
+110037, Palam Airport,South West Delhi,Delhi
+110037, Nangal Dewat,South West Delhi,Delhi
+110037, Mahipalpur,South West Delhi,Delhi
+110037, Kapashera,South West Delhi,Delhi
+110037, IGI Airport,South West Delhi,Delhi
+110037, Gurgaon Road,South West Delhi,Delhi
+110074, Satbari,South West Delhi,Delhi
+110074, S P School,South West Delhi,Delhi
+110074, Fatehpur Beri,South West Delhi,Delhi
+110074, Dera,South West Delhi,Delhi
+110074, Chattarpur,South West Delhi,Delhi
+110074, Chandanhoola,South West Delhi,Delhi
+110074, C.S.K.M. School,South West Delhi,Delhi
+110086, Sultanpuri F Block,North West Delhi,Delhi
+110086, Sultanpuri C Block,North West Delhi,Delhi
+110086, Sultanpuri B Block,North West Delhi,Delhi
+110086, Pooth Kalan Resettlement,North West Delhi,Delhi
+110086, Pooth Kalan,North West Delhi,Delhi
+110086, Budh Vihar,North West Delhi,Delhi
+110086, Begumpur,North West Delhi,Delhi
+121009, Surajkund,Faridabad,Gurgaon,Haryana
+126116, Ujhana,Narwana,Jind,Hisar,Haryana
+126116, Jheel,Narwana,Jind,Hisar,Haryana
+126116, Hamir Garh,Narwana,Jind,Hisar,Haryana
+126116, Ghason Kalan,Narwana,Jind,Hisar,Haryana
+126116, Garhi,Narwana,Jind,Hisar,Haryana
+126116, Dumarkhan Kalan,Narwana,Jind,Hisar,Haryana
+126116, Dharodi,Narwana,Jind,Hisar,Haryana
+126116, Dhanori,Narwana,Jind,Hisar,Haryana
+126116, Dhamtan Sahib,Narwana,Jind,Hisar,Haryana
+126116, Dhakal,Narwana,Jind,Hisar,Haryana
+126116, Dhabitek Singh,Narwana,Jind,Hisar,Haryana
+126116, Dablain Kalan,Jind,Hisar,Haryana
+126116, Bhana Brahmana,Narwana,Jind,Hisar,Haryana
+126116, Belarkhan,Narwana,Jind,Hisar,Haryana
+126116, Kalwan,Narwana,Jind,Hisar,Haryana
+126116, Karamgarh,Narwana,Jind,Hisar,Haryana
+126116, Kharal,Narwana,Jind,Hisar,Haryana
+126116, Sulhera,Narwana,Jind,Hisar,Haryana
+126116, Sudkain Khurd,Narwana,Jind,Hisar,Haryana
+126116, Sinsar,Narwana,Jind,Hisar,Haryana
+126116, Singhwal,Narwana,Jind,Hisar,Haryana
+126116, Rasidan,Narwana,Jind,Hisar,Haryana
+126116, Rajgarh Gurthali,Narwana,Jind,Hisar,Haryana
+126116, Pipaltha,Narwana,Jind,Hisar,Haryana
+126116, Phullian Kalan,Narwana,Jind,Hisar,Haryana
+126116, Pharain Kalan,Narwana,Jind,Hisar,Haryana
+126116, Narwana City,Narwana,Jind,Hisar,Haryana
+126116, Narwana,Narwana,Jind,Hisar,Haryana
+126116, Lowan,Narwana,Jind,Hisar,Haryana
+127021, Roopgarh,Bhiwani,Hisar,Haryana
+127021, Halu Bajar Bhiwani,Bhiwani,Hisar,Haryana
+127021, Dhirana,Bhiwani,Hisar,Haryana
+127021, Dhana Ladan Pur,Bhiwani,Hisar,Haryana
+127021, Devsar,Bhiwani,Hisar,Haryana
+127021, Chappar,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127021, Bus Stand Bhiwani,Bhiwani,Hisar,Haryana
+127021, Birla Colony Bhiwani,Bhiwani,Hisar,Haryana
+127021, Bhiwani,Bhiwani,Hisar,Haryana
+127021, Haluwas,Bhiwani,Hisar,Haryana
+127021, Jalan Hospital Bhiwani,Bhiwani,Hisar,Haryana
+127021, Kaunt,Bhiwani,Hisar,Haryana
+127021, Rasiwas,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127021, Rajgarh,Bhiwani,Hisar,Haryana
+127021, Paluwas,Bhiwani,Hisar,Haryana
+127021, Nandgaon,Bhiwani,Hisar,Haryana
+127021, Mini Sect Bhiwani,Bhiwani,Hisar,Haryana
+127021, Lohar Bazar,Bhiwani,Hisar,Haryana
+127021, Lohani,Bhiwani,Hisar,Haryana
+127021, Kusumbhi,Bhiwani,Hisar,Haryana
+127021, Bamla,Bhiwani,Hisar,Haryana
+127022, Mauri,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127022, Makrana,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127022, Dudhwa,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127022, Chiriya,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127022, Chang Road,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Sarupgarh,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Charkhi Dadri City,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Charkhi Dadri Hsg-ii,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Dhadhi Mandola,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Dhani Phogat,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Ghasola,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Imlota,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Janta College Charkhi Dadri,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Kalyana,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Kheri Bura,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Mankawas,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Neemli,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Paitawas Kalan,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Rawaldhi,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Samaspur,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127306, Charkhi,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Nandha,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Badhara,Badhara,Bhiwani,Hisar,Haryana
+127308, Badrai,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Berla,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Chandwas,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Dagroli,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Dalawas,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Gopi,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Harodi,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Jewali,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Kadma,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Kakroli Sardara,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Kari Dharani,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Kario Baniawalij,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Lad,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Mandhi Harya,Charkhi Dadri,Bhiwani,Hisar,Haryana
+127308, Arya Nagar,Charkhi Dadri,Bhiwani,Hisar,Haryana
+131001, Tharuoldepur,Sonipat,Rohtak,Haryana
+131001, Kakroi,Sonipat,Rohtak,Haryana
+131001, Industrial Area Sonipat,Sonipat,Rohtak,Haryana
+131001, Housing Board Colony,Sonipat,Rohtak,Haryana
+131001, Harsana Kalan,Sonipat,Rohtak,Haryana
+131001, Gohana Road,Sonipat,Rohtak,Haryana
+131001, Ganzbazar,Sonipat,Rohtak,Haryana
+131001, Fazilpur,Sonipat,Rohtak,Haryana
+131001, Delhi Road,Sonipat,Rohtak,Haryana
+131001, Bayanpur,Sonipat,Rohtak,Haryana
+131001, Barwasni,Sonipat,Rohtak,Haryana
+131001, Lehrara,Sonipat,Rohtak,Haryana
+131001, Mehlana,Sonipat,Rohtak,Haryana
+131001, Model Town,Sonipat,Rohtak,Haryana
+131001, Sonipat Mandi,Sonipat,Rohtak,Haryana
+131001, Sonipat Kty,Sonipat,Rohtak,Haryana
+131001, Sonipat,Sonipat,Rohtak,Haryana
+131001, Shapur Turk,Sonipat,Rohtak,Haryana
+131001, Sector-14-Sonipat,Sonipat,Rohtak,Haryana
+131001, Sandal Kalan,Sonipat,Rohtak,Haryana
+131001, Rattangarh,Sonipat,Rohtak,Haryana
+131001, Rathdhana,Sonipat,Rohtak,Haryana
+131001, Ram Bazar-Sonipat,Sonipat,Rohtak,Haryana
+131001, Mohana,Sonipat,Rohtak,Haryana
+131001, Atlas Cycle,Sonipat,Rohtak,Haryana
+131301, Tihar,Sonipat,Rohtak,Haryana
+131301, Kathura,Sonipat,Rohtak,Haryana
+131301, Jauli,Sonipat,Rohtak,Haryana
+131301, Jagsi,Sonipat,Rohtak,Haryana
+131301, Gohana Mandi,Sonipat,Rohtak,Haryana
+131301, Gohana,Sonipat,Rohtak,Haryana
+131301, Chhichrana,Sonipat,Rohtak,Haryana
+131301, Bus Stand Gohana,Sonipat,Rohtak,Haryana
+131301, Bidhal,Sonipat,Rohtak,Haryana
+131301, Bhainswan Khurd,Sonipat,Rohtak,Haryana
+131301, Barota,Sonipat,Rohtak,Haryana
+131301, Bali Brahman,Sonipat,Rohtak,Haryana
+131301, Kathura Block,Sonipat,Rohtak,Haryana
+131301, Khandrai,Sonipat,Rohtak,Haryana
+131301, Kheri Damkan,Sonipat,Rohtak,Haryana
+131301, Sikenderpur Majra,Sonipat,Rohtak,Haryana
+131301, Rukhi,Sonipat,Rohtak,Haryana
+131301, Rabra,Sonipat,Rohtak,Haryana
+131301, Puthi,Sonipat,Rohtak,Haryana
+131301, Pinana,Sonipat,Rohtak,Haryana
+131301, Nayat,Sonipat,Rohtak,Haryana
+131301, Moi Hooda,Sonipat,Rohtak,Haryana
+131301, Mehmoodpur,Sonipat,Rohtak,Haryana
+131301, Mahra-I,Sonipat,Rohtak,Haryana
+131301, Madina,Sonipat,Rohtak,Haryana
+131301, Lath,Sonipat,Rohtak,Haryana
+131301, Ahulana,Sonipat,Rohtak,Haryana
+132001, Uchana,Karnal,Rohtak,Haryana
+132001, Karnal Nai Mandi,Karnal,Rohtak,Haryana
+132001, Karnal Model Town,Karnal,Rohtak,Haryana
+132001, Karnal Kutchery,Karnal,Rohtak,Haryana
+132001, Karnal HBC,Karnal,Rohtak,Haryana
+132001, Karnal GBS,Karnal,Rohtak,Haryana
+132001, Karnal City,Karnal,Rohtak,Haryana
+132001, Karnal,Karnal,Rohtak,Haryana
+132001, Karna Lake,Karnal,Rohtak,Haryana
+132001, Kanral Industrial Area,Karnal,Rohtak,Haryana
+132001, Kachwa,Karnal,Rohtak,Haryana
+132001, Jundla,Karnal,Rohtak,Haryana
+132001, Ganjogarhi,Karnal,Rohtak,Haryana
+132001, Dhakwala Gujran,Karnal,Rohtak,Haryana
+132001, Darar,Karnal,Rohtak,Haryana
+132001, Cssri,Karnal,Rohtak,Haryana
+132001, Canal Colony,Karnal,Rohtak,Haryana
+132001, Karnal NDRI,Karnal,Rohtak,Haryana
+132001, Karnal New Prem Nagar,Karnal,Rohtak,Haryana
+132001, Karnal Partap Pura,Karnal,Rohtak,Haryana
+132001, Tikri,Karnal,Rohtak,Haryana
+132001, Sitamai,Karnal,Rohtak,Haryana
+132001, Sirsi,Karnal,Rohtak,Haryana
+132001, Sanghowa,Karnal,Rohtak,Haryana
+132001, Samlbhi,Karnal,Rohtak,Haryana
+132001, Sagga,Karnal,Rohtak,Haryana
+132001, S.P. Sohana,Karnal,Rohtak,Haryana
+132001, Ranwar,Karnal,Rohtak,Haryana
+132001, Phoosgarh,Karnal,Rohtak,Haryana
+132103, Urlana Kalan,Panipat,Rohtak,Haryana
+132103, Noorwala,Panipat,Rohtak,Haryana
+132103, Nanhera,Panipat,Rohtak,Haryana
+132103, Kurar,Panipat,Rohtak,Haryana
+132103, Kabri,Panipat,Rohtak,Haryana
+132103, Jattal,Panipat,Rohtak,Haryana
+132103, Jalalpur,Panipat,Rohtak,Haryana
+132103, Ganjbarh,Panipat,Rohtak,Haryana
+132103, Chandoli,Panipat,Rohtak,Haryana
+132103, Bursham,Panipat,Rohtak,Haryana
+132103, Binjhol,Panipat,Rohtak,Haryana
+132103, Bhadar,Panipat,Rohtak,Haryana
+132103, Barana,Panipat,Rohtak,Haryana
+132103, Babarpur,Panipat,Rohtak,Haryana
+132103, Paniapt G.T. Road,Panipat,Rohtak,Haryana
+132103, Panipat,Panipat,Rohtak,Haryana
+132103, Panipat City,Panipat,Rohtak,Haryana
+132103, Sodhapur,Panipat,Rohtak,Haryana
+132103, Seenk,Panipat,Rohtak,Haryana
+132103, Sanauli Khurd,Panipat,Rohtak,Haryana
+132103, Rajkheri,Panipat,Rohtak,Haryana
+132103, PPT Kathery,Panipat,Rohtak,Haryana
+132103, PPT Camp No. 2,Panipat,Rohtak,Haryana
+132103, Panipat Sugar Mills,Panipat,Rohtak,Haryana
+132103, Panipat Patel Nagar,Panipat,Rohtak,Haryana
+132103, Panipat N.S.M.,Panipat,Rohtak,Haryana
+132103, Panipat Model Town,Panipat,Rohtak,Haryana
+132103, Panipat Mandi,Panipat,Rohtak,Haryana
+132103, Panipat Kranti Nagar,Panipat,Rohtak,Haryana
+132116, Taroari Mandi,Nilokheri,Karnal,Rohtak,Haryana
+132116, Kuruk Jagir,Nilokheri,Karnal,Rohtak,Haryana
+132116, Nariana,Nilokheri,Karnal,Rohtak,Haryana
+132116, Padhana,Nilokheri,Karnal,Rohtak,Haryana
+132116, Ramana Ramani,Nilokheri,Karnal,Rohtak,Haryana
+132116, Ramba,Nilokheri,Karnal,Rohtak,Haryana
+132116, Sambhi,Nilokheri,Karnal,Rohtak,Haryana
+132116, Saunkra,Nilokheri,Karnal,Rohtak,Haryana
+132116, Shamgarh,Nilokheri,Karnal,Rohtak,Haryana
+132116, Sultanpur,Nilokheri,Karnal,Rohtak,Haryana
+132116, Taraori,Nilokheri,Karnal,Rohtak,Haryana
+132116, Bhaini Khrud,Nilokheri,Karnal,Rohtak,Haryana
+134003, Udaipur,Ambala,Haryana
+134003, Ghail,Ambala,Haryana
+134003, Geeta Nagri,Ambala,Haryana
+134003, Dhurkara,Ambala,Haryana
+134003, Dhulkot,Ambala,Haryana
+134003, Dhankaur,Ambala,Haryana
+134003, Danipur,Ambala,Haryana
+134003, D.A.V.College,Ambala,Haryana
+134003, Civil Line,Ambala,Haryana
+134003, Chaurmastpur,Ambala,Haryana
+134003, Bhanokheri,Ambala,Haryana
+134003, Bazar Basti Ram,Ambala,Haryana
+134003, Ballana,Ambala,Haryana
+134003, Baknaur,Ambala,Haryana
+134003, Anaj Mandi,Ambala,Haryana
+134003, Ambala City Kucthery,Ambala,Haryana
+134003, Jalbera,Ambala,Haryana
+134003, Jansui,Ambala,Haryana
+134003, Subzi Mandi,Ambala,Haryana
+134003, Segti,Ambala,Haryana
+134003, Saunta,Ambala,Haryana
+134003, Railway Road Ambala City,Ambala,Haryana
+134003, Prem Nagar,Ambala,Haryana
+134003, Preet Nagar,Ambala,Haryana
+134003, Patel Nagri,Ambala,Haryana
+134003, Naggal,Ambala,Haryana
+134003, Motor Stand,Ambala,Haryana
+134003, Model Town Ambala City,Ambala,Haryana
+134003, Matheri Sekhan,Ambala,Haryana
+134107, Chandi Mandir Cantt,Ambala,Panchkula,Haryana
+134107, Chandi Mandir,Ambala,Panchkula,Haryana
+134109, Suketri,Panchkula,Ambala,Haryana
+134109, Sector 8,Ambala,Panchkula,Haryana
+134109, Railly,Panchkula,Ambala,Haryana
+134109, Devi Nagar,Panchkula,Ambala,Haryana
+134115, Sector-12,Ambala,Panchkula,Haryana
+136034, Peedal,Guhla,Kaithal,Ambala,Haryana
+136034, Badsui,Guhla,Kaithal,Ambala,Haryana
+136034, Balbera,Guhla,Kaithal,Ambala,Haryana
+136034, Baupur,Guhla,Kaithal,Ambala,Haryana
+136034, Bhagal,Guhla,Kaithal,Ambala,Haryana
+136034, Bhuna,Guhla,Kaithal,Ambala,Haryana
+136034, Bhuslan,Guhla,Kaithal,Ambala,Haryana
+136034, Chika,Guhla,Kaithal,Ambala,Haryana
+136034, Daba,Guhla,Kaithal,Ambala,Haryana
+136034, Gaggarpur,Guhla,Kaithal,Ambala,Haryana
+136034, Harigarh Kingan,Guhla,Kaithal,Ambala,Haryana
+136034, Kharaudi,Guhla,Kaithal,Ambala,Haryana
+136034, Mehmoodpur,Guhla,Kaithal,Ambala,Haryana
+136034, Mengran,Guhla,Kaithal,Ambala,Haryana
+136034, Arnauli,Guhla,Kaithal,Ambala,Haryana
+136118, Thanesar Town,Thanesar,Kurukshetra,Ambala,Haryana
+136118, Mohan Nagar,Thanesar,Kurukshetra,Ambala,Haryana
+136118, Kurukshetra,Thanesar,Kurukshetra,Ambala,Haryana
+136118, Judicial Complex Kurukshetra,Thanesar,Kurukshetra,Ambala,Haryana
+136118, Birla Mandir,Thanesar,Kurukshetra,Ambala,Haryana
+136128, Urnai,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Bhorakh,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Bodhni,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Diwana,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Ishaq,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Karah,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Malikpur,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Murtzapur,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Pehowa,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Saina Saida,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Sandholi,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Saraswati Mandir Pehowa,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Sarsa,Pehowa,Kurukshetra,Ambala,Haryana
+136128, Bakhli,Pehowa,Kurukshetra,Ambala,Haryana
+141001, Sidhpeeth,Ludhiana,Punjab
+141001, Bharat Nagar,Ludhiana,Punjab
+141001, Durgapuri,Ludhiana,Punjab
+141001, Gurdev Nagar,Ludhiana,Punjab
+141001, Ludhiana,Ludhiana,Punjab
+141001, Ludhiana Kty,Ludhiana,Punjab
+141001, New Courts,Ludhiana,Punjab
+141001, P&t Colony,Ludhiana,Punjab
+141001, Sarabha Nagar,Ludhiana,Punjab
+141001, Satsang Road,Ludhiana,Punjab
+141001, Aggar Nagar,Ludhiana,Punjab
+141401, Rohno Kalan,Khanna,Ludhiana,Punjab
+141401, Bahomajra,Khanna,Ludhiana,Punjab
+141401, Bhamaddi,Khanna,Ludhiana,Punjab
+141401, Ghungrali Rajputan,Khanna,Ludhiana,Punjab
+141401, Ikolaha,Khanna,Ludhiana,Punjab
+141401, Khanna,Khanna,Ludhiana,Punjab
+141401, Kishangarh,Khanna,Ludhiana,Punjab
+141401, Libra,Khanna,Ludhiana,Punjab
+141401, Mohanpur,Khanna,Ludhiana,Punjab
+141401, Nai Mandi Khanna,Khanna,Ludhiana,Punjab
+141401, Rajewal,Khanna,Ludhiana,Punjab
+141401, Amloh Road,Khanna,Ludhiana,Punjab
+143001, Sultan Wind Gate,Amritsar,Punjab
+143001, Amritsar Bus Stand,Amritsar,Punjab
+143001, Amritsar Kty,Amritsar,Punjab
+143001, Amritsar Sadar Bazar,Amritsar,Punjab
+143001, Azad Nagar,Amritsar,Punjab
+143001, Chowk Rattan Singh,Amritsar,Punjab
+143001, Hide Market,Amritsar,Punjab
+143001, Islamabad,Amritsar,Punjab
+143001, Kangra Colony,Amritsar,Punjab
+143001, Kot Ralia Ram,Amritsar,Punjab
+143001, Lawrence Road,Amritsar,Punjab
+143001, Medical College,Amritsar,Punjab
+143001, Nawan Kot,Amritsar,Punjab
+143001, NRL Workshop,Amritsar,Punjab
+143001, Ram Talai,Amritsar,Punjab
+143001, Rani Ka Bagh,Amritsar,Punjab
+143001, Amritsar,Amritsar,Punjab
+144001, Shakti Nagar,Jalandhar,Punjab
+144001, Fentonganj,Jalandhar,Punjab
+144001, General Bus Stand,Jalandhar,Punjab
+144001, Jalandhar City,Jalandhar,Punjab
+144001, Lajpat Nagar,Jalandhar,Punjab
+144001, Lyalpur Khalsa College,Jalandhar,Punjab
+144001, N R Colony,Jalandhar,Punjab
+144001, Railway Road,Jalandhar,Punjab
+144001, Rasta Mohalla,Jalandhar,Punjab
+144001, S U S Nagar,Jalandhar,Punjab
+144001, Sant Nagar,Jalandhar,Punjab
+144001, Session Court,Jalandhar,Punjab
+144001, Bazar Shahidan,Jalandhar,Punjab
+144003, Wadala,Jalandhar,Punjab
+144003, Model Town,Jalandhar,Punjab
+144003, Model House,Jalandhar,Punjab
+144003, Khurla,Jalandhar,Punjab
+144003, Bhargav Camp,Jalandhar,Punjab
+144004, Sodal Road,Jalandhar,Punjab
+144004, Randhawa Masanda,Jalandhar,Punjab
+144004, Preet Nagar,Jalandhar,Punjab
+144004, Nussi,Jalandhar,Punjab
+144004, Lidhran,Jalandhar,Punjab
+144004, Industrial Town,Jalandhar,Punjab
+144004, Hoshiarpur Road,Jalandhar,Punjab
+144004, Guru Ravidass Road,Jalandhar,Punjab
+144201, Sanaura,Jalandhar,Punjab
+144201, Bhatnura Lubana,Jalandhar,Punjab
+144201, Bhogpur,Jalandhar,Punjab
+144201, Binpalke,Jalandhar,Punjab
+144201, Cholang,Jalandhar,Punjab
+144201, Jandir,Jalandhar,Punjab
+144201, Kingra Chowala,Jalandhar,Punjab
+144201, Ladhra,Jalandhar,Punjab
+144201, Laroi,Jalandhar,Punjab
+144201, Laroya,Jalandhar,Punjab
+144201, Loharan,Jalandhar,Punjab
+144201, Madhopur,Jalandhar,Punjab
+144201, Manakrai,Jalandhar,Punjab
+144201, Pachranga,Jalandhar,Punjab
+144201, Patial,Jalandhar,Punjab
+144201, Rajpur,Jalandhar,Punjab
+144201, Behram Sarista,Jalandhar,Punjab
+144216, Talwara Township,Hoshiarpur,Punjab
+144216, Rajwal,Hoshiarpur,Punjab
+144216, Bhera,Hoshiarpur,Punjab
+144221, Seeprian,Hoshiarpur,Punjab
+144221, Sariana,Hoshiarpur,Punjab
+144221, Hajipur,Hoshiarpur,Punjab
+144221, Ghagwal,Hoshiarpur,Punjab
+144221, Gera,Hoshiarpur,Punjab
+144221, Dhamian,Hoshiarpur,Punjab
+144221, Dagon,Hoshiarpur,Punjab
+144221, Budhabar,Hoshiarpur,Punjab
+144517, Rahon,Nawanshahar,Nawanshahr,Punjab
+144517, Kot Ranjha,Nawanshahar,Nawanshahr,Punjab
+144517, Kahlon,Nawanshahar,Nawanshahr,Punjab
+144517, Hiala,Nawanshahar,Nawanshahr,Punjab
+144517, Barsian,Nawanshahar,Nawanshahr,Punjab
+144517, Bahloor Kalan,Nawanshahar,Nawanshahr,Punjab
+144532, Shimli,Nawanshahar,Nawanshahr,Punjab
+144532, Samundra,Nawanshahar,Nawanshahr,Punjab
+144532, Sahungra,Nawanshahar,Nawanshahr,Punjab
+144532, Rurki Khas,Nawanshahar,Nawanshahr,Punjab
+144532, Panam,Nawanshahar,Nawanshahr,Punjab
+144532, Hayatpur Rurki,Nawanshahar,Nawanshahr,Punjab
+144532, Dhamai,Hoshiarpur,Punjab
+144532, Chak Singha,Hoshiarpur,Punjab
+146001, Tanuli,Hoshiarpur,Punjab
+146001, Kakkon,Hoshiarpur,Punjab
+146001, Hoshiarpur City,Hoshiarpur,Punjab
+146001, Hoshiarpur,Hoshiarpur,Punjab
+146001, Hardokhanpur,Hoshiarpur,Punjab
+146001, Government College,Hoshiarpur,Punjab
+146001, Gaushala Bazar,Hoshiarpur,Punjab
+146001, Chagran,Hoshiarpur,Punjab
+146001, Bhikhowal,Hoshiarpur,Punjab
+146001, Bharwain Road,Hoshiarpur,Punjab
+146001, Bahadurpur Chowk,Hoshiarpur,Punjab
+146001, Baghpur,Hoshiarpur,Punjab
+146001, Ahrana Klaln,Hoshiarpur,Punjab
+146001, Kamalpur,Hoshiarpur,Punjab
+146001, Khanaura,Hoshiarpur,Punjab
+146001, Shergarh,Hoshiarpur,Punjab
+146001, Sataur,Hoshiarpur,Punjab
+146001, Ram Colony Camp,Hoshiarpur,Punjab
+146001, Railway Road,Hoshiarpur,Punjab
+146001, Phuglana,Hoshiarpur,Punjab
+146001, Pandori Bibi,Hoshiarpur,Punjab
+146001, Nangal Shahidan,Hoshiarpur,Punjab
+146001, Nainowal Jattan,Hoshiarpur,Punjab
+146001, Model Town,Hoshiarpur,Punjab
+146001, Mehtiana,Hoshiarpur,Punjab
+146001, Manguawal Nari,Hoshiarpur,Punjab
+146001, Lachowal,Hoshiarpur,Punjab
+146001, Adamwal,Hoshiarpur,Punjab
+147001, Sular,Patiala,Punjab
+147001, Law Court,Patiala,Punjab
+147001, Lang,Patiala,Punjab
+147001, Kalyan,Patiala,Punjab
+147001, Jhandi,Patiala,Punjab
+147001, Jaurian Bhattian,Patiala,Punjab
+147001, Gajjumajra,Patiala,Punjab
+147001, Dukhniwaran Sahib,Patiala,Punjab
+147001, Dakala,Patiala,Punjab
+147001, Civil Lines Patiala,Patiala,Punjab
+147001, Chalela,Patiala,Punjab
+147001, Bhupindra State Press,Patiala,Punjab
+147001, Barandari Garden Patiala,Patiala,Punjab
+147001, Bakshiwala,Patiala,Punjab
+147001, Bahera Road Patiala,Patiala,Punjab
+147001, Allowal,Patiala,Punjab
+147001, Medical College,Patiala,Punjab
+147001, Model Town,Patiala,Punjab
+147001, Sidhuwal,Patiala,Punjab
+147001, Sheran Wala Gate Patiala,Patiala,Punjab
+147001, Shahi Samadhan,Patiala,Punjab
+147001, Saphera,Patiala,Punjab
+147001, Ranbirpura,Patiala,Punjab
+147001, Ragho Majra Patiala,Patiala,Punjab
+147001, Patiala City,Patiala,Punjab
+147001, Patiala,Patiala,Punjab
+147001, Passiana,Patiala,Punjab
+147001, Nsnis,Patiala,Punjab
+147001, New Officer Colony,Patiala,Punjab
+151001, Teona,Bathinda,Punjab
+151001, Guru Sar Sehne Wala,Bathinda,Punjab
+151001, Gulab Garh,Bathinda,Punjab
+151001, Gehri Baghi,Bathinda,Punjab
+151001, Dabwali Road,Bathinda,Punjab
+151001, Chughe Kalan,Bathinda,Punjab
+151001, Bir Behman,Bathinda,Punjab
+151001, Bibi Wala,Bathinda,Punjab
+151001, Bhagwan Garh,Bathinda,Punjab
+151001, Behman Diwana,Bathinda,Punjab
+151001, Bathinda,Bathinda,Punjab
+151001, Ind. Estate Bathinda,Bathinda,Punjab
+151001, Jai Singh Wala,Bathinda,Punjab
+151001, Sardargarh,Bathinda,Punjab
+151001, Nasib Pura,Bathinda,Punjab
+151001, Naruana,Bathinda,Punjab
+151001, Nai Basti Bathinda,Bathinda,Punjab
+151001, Multania,Bathinda,Punjab
+151001, Mehta,Bathinda,Punjab
+151001, Kot Shamir,Bathinda,Punjab
+151001, Kamla Nehru Colony Bathinda,Bathinda,Punjab
+151001, Jhumba,Bathinda,Punjab
+151001, Jassi Pau Wali,Bathinda,Punjab
+151001, Balluna,Bti,Bathinda,Punjab
+151003, Nfl Bathinda,Bathinda,Punjab
+151211, Middu Khera,Lambi,Muktsar,Punjab
+151211, Mandi Killianwali,Malout,Muktsar,Punjab
+151211, Lohara,Lambi,Muktsar,Punjab
+151211, Killianwali,Lambi,Muktsar,Punjab
+151211, Haku Wala,Lambi,Muktsar,Punjab
+151211, Ghumiara,Lambi,Muktsar,Punjab
+151211, Bring Khera,Lambi,Muktsar,Punjab
+151501, Ranghrial,Bareta,Bathinda,Punjab
+151501, Kulrian,Bareta,Bathinda,Punjab
+151501, Kishangarh Saide Singh Wala,Bareta,Bathinda,Punjab
+151501, Kahangarh,Bareta,Bathinda,Punjab
+151501, Gobindpura,Bareta,Bathinda,Punjab
+151501, Dharampura,Bareta,Mansa,Punjab
+151501, Bareta,Bareta,Mansa,Punjab
+151501, Bahadurpur,Bareta,Bathinda,Punjab
+152026, Udekaran,Muktsar,Punjab
+152026, Badhai,Muktsar,Punjab
+152026, Ballamgarh,Muktsar,Punjab
+152026, Bhagsar,Muktsar,Punjab
+152026, Goniana Village,Muktsar,Punjab
+152026, Jhabel Wali,Muktsar,Punjab
+152026, Lakhewali,Muktsar,Punjab
+152026, Lubanian,Muktsar,Punjab
+152026, Madrassa,Muktsar,Punjab
+152026, Mangatker,Muktsar,Punjab
+152026, Muktsar,Muktsar,Punjab
+152026, Muktsar Kty,Muktsar,Punjab
+152026, Nand Garh,Muktsar,Punjab
+152026, Ngm Muktsar,Muktsar,Punjab
+152026, Rahurian Wali,Muktsar,Punjab
+152026, Sammewali,Muktsar,Punjab
+152026, Sanghudhon,Muktsar,Punjab
+152026, Thandewala,Muktsar,Punjab
+152026, Akalgarh,Muktsar,Punjab
+160003, Behlana,Chandigarh
+160003, Aerodrome,Chandigarh
+160011, Sector-11,Chandigarh
+160011, Sector-10,Chandigarh
+160014, Tira,Chandigarh
+160014, Sector-14,Chandigarh
+160014, Dhanas,Chandigarh
+160014, Dadu Majra Colony,Chandigarh
+160014, Behlolpur,Chandigarh
+160019, Sector-19,Chandigarh
+160019, Sector 27,Chandigarh
+160019, Sector 26,Chandigarh
+160019, Raj Bhawan,Chandigarh
+160020, Sector 20,Chandigarh
+160035, Sector 35,Chandigarh

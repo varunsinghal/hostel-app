@@ -1,0 +1,18 @@
+<select name="branch">
+		<option value="ECE" id="ECE">ECE</option>
+		<option value="COE" id="COE">COE</option>
+		<option value="EEE" id="EEE">EEE</option>
+		<option value="ME" id="ME">ME</option>
+		<option value="IT" id="IT">IT</option>
+		<option value="EE" id="EE">EE</option>
+		<option value="SE" id="SE">SE</option>
+		<option value="CE" id="CE">CE</option>
+		<option value="PIE" id="PIE">PIE</option>
+		<option value="PCT" id="PCT">PCT</option>
+		<option value="ENE" id="ENE">ENE</option>
+		<option value="BIO" id="BIO">BIO</option>
+		<option value="MC" id="MC">MC</option>
+		<option value="EP" id="EP">EP</option>
+		<option value="AE" id="AE">AE</option>
+		<option value="others" id="others">Others(for PG students)</option>
+</select>

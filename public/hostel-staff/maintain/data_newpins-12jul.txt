@@ -1,0 +1,552 @@
+110026, Shivaji Park,West Delhi,Delhi
+110026, Punjabi Bagh Sec - III,West Delhi,Delhi
+110026, Punjabi Bagh,West Delhi,Delhi
+110026, Ashoka Park Extn.,West Delhi,Delhi
+126102, Radhana,Jind2,Jind,Hisar,Haryana
+126102, Ahirka,Jind,Hisar,Haryana
+126102, Igrah,Jind,Hisar,Haryana
+126102, Ikkas,Jind,Hisar,Haryana
+126102, Intal Kalan,Jind,Hisar,Haryana
+126102, Jajwan,Jind,Hisar,Haryana
+126102, Jhanjkalan,Jind,Hisar,Haryana
+126102, Jind,Jind,Hisar,Haryana
+126102, Jind Mini Sectt.,Jind,Hisar,Haryana
+126102, Jind Palika Bazar,Jind,Hisar,Haryana
+126102, Gulkani,Jind,Hisar,Haryana
+126102, Durana,Jind,Hisar,Haryana
+126102, Badhana,Jind,Hisar,Haryana
+126102, Bibipur,Jind,Hisar,Haryana
+126102, Bighana,Jind,Hisar,Haryana
+126102, Chhatar,Jind,Hisar,Haryana
+126102, Chuharpur,Jind,Hisar,Haryana
+126102, Dariyawala,Jind,Hisar,Haryana
+126102, Dehola,Jind,Hisar,Haryana
+126102, Dilwala,Jind,Hisar,Haryana
+126102, Jind Patiala Chowk,Jind,Hisar,Haryana
+126102, Jind Punjabi Bazar,Jind,Hisar,Haryana
+126102, Nirjan,Jind,Hisar,Haryana
+126102, Pegan,Jind,Hisar,Haryana
+126102, Pindara,Jind,Hisar,Haryana
+126102, Ram Rai,Jind,Hisar,Haryana
+126102, Roopgarh,Jind,Hisar,Haryana
+126102, Sandil,Jind,Hisar,Haryana
+126102, Shahpur,Jind,Hisar,Haryana
+151001, Teona,Bathinda,Punjab
+151001, Guru Sar Sehne Wala,Bathinda,Punjab
+151001, Gulab Garh,Bathinda,Punjab
+151001, Gehri Baghi,Bathinda,Punjab
+151001, Dabwali Road,Bathinda,Punjab
+151001, Chughe Kalan,Bathinda,Punjab
+151001, Bir Behman,Bathinda,Punjab
+151001, Bibi Wala,Bathinda,Punjab
+151001, Bhagwan Garh,Bathinda,Punjab
+151001, Behman Diwana,Bathinda,Punjab
+151001, Bathinda,Bathinda,Punjab
+151001, Ind. Estate Bathinda,Bathinda,Punjab
+151001, Jai Singh Wala,Bathinda,Punjab
+151001, Sardargarh,Bathinda,Punjab
+151001, Nasib Pura,Bathinda,Punjab
+151001, Naruana,Bathinda,Punjab
+151001, Nai Basti Bathinda,Bathinda,Punjab
+151001, Multania,Bathinda,Punjab
+151001, Mehta,Bathinda,Punjab
+151001, Kot Shamir,Bathinda,Punjab
+151001, Kamla Nehru Colony Bathinda,Bathinda,Punjab
+151001, Jhumba,Bathinda,Punjab
+151001, Jassi Pau Wali,Bathinda,Punjab
+151001, Balluna,Bti,Bathinda,Punjab
+152026, Udekaran,Muktsar,Punjab
+152026, Badhai,Muktsar,Punjab
+152026, Ballamgarh,Muktsar,Punjab
+152026, Bhagsar,Muktsar,Punjab
+152026, Goniana Village,Muktsar,Punjab
+152026, Jhabel Wali,Muktsar,Punjab
+152026, Lakhewali,Muktsar,Punjab
+152026, Lubanian,Muktsar,Punjab
+152026, Madrassa,Muktsar,Punjab
+152026, Mangatker,Muktsar,Punjab
+152026, Muktsar,Muktsar,Punjab
+152026, Muktsar Kty,Muktsar,Punjab
+152026, Nand Garh,Muktsar,Punjab
+152026, Ngm Muktsar,Muktsar,Punjab
+152026, Rahurian Wali,Muktsar,Punjab
+152026, Sammewali,Muktsar,Punjab
+152026, Sanghudhon,Muktsar,Punjab
+152026, Thandewala,Muktsar,Punjab
+152026, Akalgarh,Muktsar,Punjab
+160020, Sector 20,Chandigarh
+201013, Govindpuram,Ghaziabad,Meerut,Uttar Pradesh
+221108, Rohana,Varanasi,Uttar Pradesh
+221108, Bhulanpur Pac,Varanasi,Uttar Pradesh
+226011, Manaknagar,Lucknow,Uttar Pradesh
+227105, Rasoolpur Saadat,Lucknow,Uttar Pradesh
+227105, Malhaur,Lucknow,Uttar Pradesh
+227105, Juggaur,Lucknow,Uttar Pradesh
+227105, Industria Area Chinhat,Lucknow,Uttar Pradesh
+227105, Goila,Lucknow,Uttar Pradesh
+227105, Chinhat,Lucknow,Uttar Pradesh
+227105, Anaura Kalan,Lucknow,Uttar Pradesh
+227105, Amraigaon,Lucknow,Uttar Pradesh
+244901, Tehsil Rampur,Rampur,Moradabad,Uttar Pradesh
+244901, Kira,Rampur,Moradabad,Uttar Pradesh
+244901, Khusro Bag,Rampur,Moradabad,Uttar Pradesh
+244901, Kemri,Rampur,Moradabad,Uttar Pradesh
+244901, Kakrawa,Rampur,Moradabad,Uttar Pradesh
+244901, Jwala Nagar,Rampur,Moradabad,Uttar Pradesh
+244901, Juthia,Rampur,Moradabad,Uttar Pradesh
+244901, Ialam Ganj,Rampur,Moradabad,Uttar Pradesh
+244901, Civil Line Rampur,Rampur,Moradabad,Uttar Pradesh
+244901, Chikti Ramnagar,Rampur,Moradabad,Uttar Pradesh
+244901, Chamroa,Rampur,Moradabad,Uttar Pradesh
+244901, C.R.P. Hq,Rampur,Moradabad,Uttar Pradesh
+244901, C & M Store,Rampur,Moradabad,Uttar Pradesh
+244901, Bhot,Rampur,Moradabad,Uttar Pradesh
+244901, Benazir,Rampur,Moradabad,Uttar Pradesh
+244901, Bara Khas,Rampur,Moradabad,Uttar Pradesh
+244901, Bakania,Rampur,Moradabad,Uttar Pradesh
+244901, Ajit Pur,Rampur,Moradabad,Uttar Pradesh
+244901, Koila,Rampur,Moradabad,Uttar Pradesh
+244901, M.B.Rampur,Rampur,Moradabad,Uttar Pradesh
+244901, Roshan Bag Road,Rampur,Moradabad,Uttar Pradesh
+244901, Rawari Kalan,Rampur,Moradabad,Uttar Pradesh
+244901, Rampur Secretariate,Rampur,Moradabad,Uttar Pradesh
+244901, Rampur Distilliry,Rampur,Moradabad,Uttar Pradesh
+244901, Rampur City,Rampur,Moradabad,Uttar Pradesh
+244901, Rampur Chowk,Rampur,Moradabad,Uttar Pradesh
+244901, Rampur,Rampur,Moradabad,Uttar Pradesh
+244901, Purana Ganj,Rampur,Moradabad,Uttar Pradesh
+244901, Punjab Nagar,Rampur,Moradabad,Uttar Pradesh
+249001, Tehri,Tehri,Tehri Garhwal,Uttarakhand
+249001, Teehri Kutchery,Tehri,Tehri Garhwal,Uttarakhand
+249001, Rajakhet,Pratapnagar,Tehri Garhwal,Uttarakhand
+249001, Pangerkhal,Tehri,Tehri Garhwal,Uttarakhand
+249001, New Tehri Collectrate,Tehri,Tehri Garhwal,Uttarakhand
+249001, Nelda,Pratapnagar,Tehri Garhwal,Uttarakhand
+249001, Kuttha,Tehri,Tehri Garhwal,Uttarakhand
+249001, Gyansoo,Tehri,Tehri Garhwal,Uttarakhand
+249001, Baurari,Tehri,Tehri Garhwal,Uttarakhand
+272152, Tilaura,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Gopalpur,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+272152, Deokali,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+272152, Daldala,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Charthari,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Bisunpurwa,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Belaukh,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Bankeygaon,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Banethu,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+272152, Arji,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Kadja,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Lahara,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Suhai Kanpurwa,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Sishania,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Sawadand,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Rithia Bazar,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Rajediha Bazar,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+272152, Pasai,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+272152, Pachmohani,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Nasirganj,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Marwatia Bazar,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Agiyauna,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+303328, Sinodiya,Jaipur,Rajasthan
+303328, Bhaislana,Jaipur,Rajasthan
+303328, Bhojpura,Jaipur,Rajasthan
+303328, Dhani Boraj,Jaipur,Rajasthan
+303328, Dheendha,Jaipur,Rajasthan
+303328, Hingonia,Jaipur,Rajasthan
+303328, Jobner,Jaipur,Rajasthan
+303328, Jorpura,Jaipur,Rajasthan
+303328, Jorpura Sundariawas,Jaipur,Rajasthan
+303328, Kalakh,Jaipur,Rajasthan
+303328, Kodi,Jaipur,Rajasthan
+303328, Mundoti,Jaipur,Rajasthan
+303328, Murlipura,Jaipur,Rajasthan
+303328, Bhadwa,Jaipur,Rajasthan
+321612, Santha,Dausa,Jaipur,Rajasthan
+321612, Paota,Dausa,Jaipur,Rajasthan
+321612, Palanheda,Dausa,Jaipur,Rajasthan
+321612, Gazipura,Dausa,Jaipur,Rajasthan
+321612, Gahnoli,Dausa,Jaipur,Rajasthan
+370001, Zinkdi,Bhuj,Kutch,Gujarat
+370001, Bhuj,Bhuj,Kutch,Gujarat
+370001, Bhuj Darbargadh Chowk,Bhuj,Kutch,Gujarat
+370001, Bidar,Nakhatrana,Kutch,Gujarat
+370001, Dhori,Bhuj,Kutch,Gujarat
+370001, Dhrang,Bhuj,Kutch,Gujarat
+370001, Habay,Bhuj,Kutch,Gujarat
+370001, Kotay,Bhuj,Kutch,Gujarat
+370001, Kunariya,Bhuj,Kutch,Gujarat
+370001, Lodai,Bhuj,Kutch,Gujarat
+370001, Loria,Bhuj,Kutch,Gujarat
+370001, Mirzapar,Bhuj,Kutch,Gujarat
+370001, Nagor,Bhuj,Kutch,Gujarat
+370001, Nirona,Nakhatrana,Kutch,Gujarat
+370001, Sumrasar,Bhuj,Kutch,Gujarat
+370001, Vang,Nakhatrana,Kutch,Gujarat
+370001, Bhagadia,Bhuj,Kutch,Gujarat
+462001, Shahajahanabad,Bhopal,Madhya Pradesh
+462001, Berasia Road,Bhopal,Madhya Pradesh
+462001, Bhopal,Bhopal,Madhya Pradesh
+462001, Chhola Road,Bhopal,Madhya Pradesh
+462001, Chouk,Bhopal,Madhya Pradesh
+462001, Durga Chouk,Bhopal,Madhya Pradesh
+462001, Gandhi Medical College,Bhopal,Madhya Pradesh
+462001, Hamidia Road,Bhopal,Madhya Pradesh
+462001, Itwara,Bhopal,Madhya Pradesh
+462001, Jumerati,Bhopal,Madhya Pradesh
+462001, Kamla Park,Bhopal,Madhya Pradesh
+462001, Old Secretriate,Bhopal,Madhya Pradesh
+462001, S.I. Line,Bhopal,Madhya Pradesh
+462001, Bazaria Shahajahanabad,Bhopal,Madhya Pradesh
+462024, H.E. Hospital,Bhopal,Madhya Pradesh
+471001, Saura,Chhatarpur,Sagar,Madhya Pradesh
+471001, Ajnore,Tikamgarh,Sagar,Madhya Pradesh
+471001, Bagouta,Chhatarpur,Sagar,Madhya Pradesh
+471001, Bhadurpur,Tikamgarh,Sagar,Madhya Pradesh
+471001, Bhelsi,Baldeogarh,Tikamgarh,Sagar,Madhya Pradesh
+471001, Budera,Baldeogarh,Tikamgarh,Sagar,Madhya Pradesh
+471001, Chhatarpur,Chhatarpur,Sagar,Madhya Pradesh
+471001, Chhatarpur CB,Chhatarpur,Sagar,Madhya Pradesh
+471001, Chhatarpur City,Chhatarpur,Sagar,Madhya Pradesh
+471001, Chhatarpur Coll.,Chhatarpur,Sagar,Madhya Pradesh
+471001, Dhadari,Chhatarpur,Sagar,Madhya Pradesh
+471001, Gatheora,Chhatarpur,Sagar,Madhya Pradesh
+471001, Kalani,Chhatarpur,Sagar,Madhya Pradesh
+471001, Majna,Tikamgarh,Sagar,Madhya Pradesh
+471001, Niwari,Chhatarpur,Sagar,Madhya Pradesh
+471001, Ahar,Baldeogarh,Tikamgarh,Sagar,Madhya Pradesh
+486553, Rithi,Gurh,Rewa,Madhya Pradesh
+486553, Badwar,Gurh,Rewa,Madhya Pradesh
+486553, Barsaita,Gurh,Rewa,Madhya Pradesh
+486553, Bhita,Gurh,Rewa,Madhya Pradesh
+486553, Gurh,Huzur,Rewa,Madhya Pradesh
+486553, Hardi,Gurh,Rewa,Madhya Pradesh
+486553, Jaldar,Gurh,Rewa,Madhya Pradesh
+486553, Karaundi,Gurh,Rewa,Madhya Pradesh
+486553, Khajuha Kala,Gurh,Rewa,Madhya Pradesh
+486553, Mahsaon,Gurh,Rewa,Madhya Pradesh
+486553, Pantibadi,Gurh,Rewa,Madhya Pradesh
+486553, Patauta,Gurh,Rewa,Madhya Pradesh
+486553, Badagaon,Gurh,Rewa,Madhya Pradesh
+560064, Yelahanka,Bangalore North,Bangalore,Karnataka
+560064, Wheel And Axle Plant,Bangalore North,Bangalore,Karnataka
+560064, Singanayakanahalli,Bangalore North,Bangalore,Karnataka
+560064, Rajanakunte,Bangalore North,Bangalore,Karnataka
+560064, Kendriya Vihar,Bangalore North,Bangalore,Karnataka
+560064, Jakkur,Bangalore North,Bangalore,Karnataka
+560064, CRPF Campus Yelahanka,Bangalore North,Bangalore,Karnataka
+560064, BSF Campus Yelahanka,Bangalore North,Bangalore,Karnataka
+560064, Attur,Bangalore North,Bangalore,Karnataka
+700026, Sahanagar,Kolkata,Presidency,West Bengal
+700026, Southern Market,Kolkata,Presidency,West Bengal
+700026, R.K.Seva Pratisthan,Kolkata,Presidency,West Bengal
+700026, Kalimandir,Kolkata,Presidency,West Bengal
+700026, Keoratala,Kolkata,Presidency,West Bengal
+700026, Kalighat,Kolkata,Presidency,West Bengal
+781022, Khanapara,Gmc,Kamrup,Assam
+800013, Patliputra,Patna Sadar,Patna,Bihar
+801503, Sherpur,Danapur,Patna,Bihar
+801503, Chandmari,Danapur,Patna,Bihar
+801503, Dalip Chak,Danapur,Patna,Bihar
+801503, Danapur Bazar,Danapur,Patna,Bihar
+801503, Danapur Cantt,Danapur,Patna,Bihar
+801503, Jahankhan Road,Danapur,Patna,Bihar
+801503, Jamsaut,Danapur,Patna,Bihar
+801503, Jivrakhan Tola,Danapur,Patna,Bihar
+801503, Lal Bengwa,Danapur,Patna,Bihar
+801503, Madhopur,Danapur,Patna,Bihar
+801503, Sadikpur,Danapur,Patna,Bihar
+801503, Beapur,Danapur,Patna,Bihar
+834008, Ranchi University,Ranchi,Jharkhand
+834008, New Area Marabadi,Ranchi,Jharkhand
+834008, Morabadi,Ranchi,Jharkhand
+834008, Kanke Road,Ranchi,Jharkhand
+834008, Adalhatu,Ranchi,Jharkhand
+848201, Sumbha,Begusarai,Munger,Bihar
+848201, Bagras,Begusarai,Munger,Bihar
+848201, Chak Hamid,Begusarai,Munger,Bihar
+848201, Deopura,Begusarai,Munger,Bihar
+848201, Gamharia,Begusarai,Munger,Bihar
+848201, Ghagrha,Begusarai,Munger,Bihar
+848201, Mohanpur,Begusarai,Munger,Bihar
+848201, Rampur,Begusarai,Munger,Bihar
+848201, Samsa,Begusarai,Munger,Bihar
+848201, Sital Rampur,Begusarai,Munger,Bihar
+848201, Sonihar,Begusarai,Munger,Bihar
+848201, Sonma,Begusarai,Munger,Bihar
+848201, B.Bazar,Khagaria,Begusarai,Munger,Bihar
+110026, Shivaji Park,West Delhi,Delhi
+110026, Punjabi Bagh Sec - III,West Delhi,Delhi
+110026, Punjabi Bagh,West Delhi,Delhi
+110026, Ashoka Park Extn.,West Delhi,Delhi
+126102, Radhana,Jind2,Jind,Hisar,Haryana
+126102, Ahirka,Jind,Hisar,Haryana
+126102, Igrah,Jind,Hisar,Haryana
+126102, Ikkas,Jind,Hisar,Haryana
+126102, Intal Kalan,Jind,Hisar,Haryana
+126102, Jajwan,Jind,Hisar,Haryana
+126102, Jhanjkalan,Jind,Hisar,Haryana
+126102, Jind,Jind,Hisar,Haryana
+126102, Jind Mini Sectt.,Jind,Hisar,Haryana
+126102, Jind Palika Bazar,Jind,Hisar,Haryana
+126102, Gulkani,Jind,Hisar,Haryana
+126102, Durana,Jind,Hisar,Haryana
+126102, Badhana,Jind,Hisar,Haryana
+126102, Bibipur,Jind,Hisar,Haryana
+126102, Bighana,Jind,Hisar,Haryana
+126102, Chhatar,Jind,Hisar,Haryana
+126102, Chuharpur,Jind,Hisar,Haryana
+126102, Dariyawala,Jind,Hisar,Haryana
+126102, Dehola,Jind,Hisar,Haryana
+126102, Dilwala,Jind,Hisar,Haryana
+126102, Jind Patiala Chowk,Jind,Hisar,Haryana
+126102, Jind Punjabi Bazar,Jind,Hisar,Haryana
+126102, Nirjan,Jind,Hisar,Haryana
+126102, Pegan,Jind,Hisar,Haryana
+126102, Pindara,Jind,Hisar,Haryana
+126102, Ram Rai,Jind,Hisar,Haryana
+126102, Roopgarh,Jind,Hisar,Haryana
+126102, Sandil,Jind,Hisar,Haryana
+126102, Shahpur,Jind,Hisar,Haryana
+151001, Teona,Bathinda,Punjab
+151001, Guru Sar Sehne Wala,Bathinda,Punjab
+151001, Gulab Garh,Bathinda,Punjab
+151001, Gehri Baghi,Bathinda,Punjab
+151001, Dabwali Road,Bathinda,Punjab
+151001, Chughe Kalan,Bathinda,Punjab
+151001, Bir Behman,Bathinda,Punjab
+151001, Bibi Wala,Bathinda,Punjab
+151001, Bhagwan Garh,Bathinda,Punjab
+151001, Behman Diwana,Bathinda,Punjab
+151001, Bathinda,Bathinda,Punjab
+151001, Ind. Estate Bathinda,Bathinda,Punjab
+151001, Jai Singh Wala,Bathinda,Punjab
+151001, Sardargarh,Bathinda,Punjab
+151001, Nasib Pura,Bathinda,Punjab
+151001, Naruana,Bathinda,Punjab
+151001, Nai Basti Bathinda,Bathinda,Punjab
+151001, Multania,Bathinda,Punjab
+151001, Mehta,Bathinda,Punjab
+151001, Kot Shamir,Bathinda,Punjab
+151001, Kamla Nehru Colony Bathinda,Bathinda,Punjab
+151001, Jhumba,Bathinda,Punjab
+151001, Jassi Pau Wali,Bathinda,Punjab
+151001, Balluna,Bti,Bathinda,Punjab
+152026, Udekaran,Muktsar,Punjab
+152026, Badhai,Muktsar,Punjab
+152026, Ballamgarh,Muktsar,Punjab
+152026, Bhagsar,Muktsar,Punjab
+152026, Goniana Village,Muktsar,Punjab
+152026, Jhabel Wali,Muktsar,Punjab
+152026, Lakhewali,Muktsar,Punjab
+152026, Lubanian,Muktsar,Punjab
+152026, Madrassa,Muktsar,Punjab
+152026, Mangatker,Muktsar,Punjab
+152026, Muktsar,Muktsar,Punjab
+152026, Muktsar Kty,Muktsar,Punjab
+152026, Nand Garh,Muktsar,Punjab
+152026, Ngm Muktsar,Muktsar,Punjab
+152026, Rahurian Wali,Muktsar,Punjab
+152026, Sammewali,Muktsar,Punjab
+152026, Sanghudhon,Muktsar,Punjab
+152026, Thandewala,Muktsar,Punjab
+152026, Akalgarh,Muktsar,Punjab
+160020, Sector 20,Chandigarh
+201013, Govindpuram,Ghaziabad,Meerut,Uttar Pradesh
+221108, Rohana,Varanasi,Uttar Pradesh
+221108, Bhulanpur Pac,Varanasi,Uttar Pradesh
+226011, Manaknagar,Lucknow,Uttar Pradesh
+227105, Rasoolpur Saadat,Lucknow,Uttar Pradesh
+227105, Malhaur,Lucknow,Uttar Pradesh
+227105, Juggaur,Lucknow,Uttar Pradesh
+227105, Industria Area Chinhat,Lucknow,Uttar Pradesh
+227105, Goila,Lucknow,Uttar Pradesh
+227105, Chinhat,Lucknow,Uttar Pradesh
+227105, Anaura Kalan,Lucknow,Uttar Pradesh
+227105, Amraigaon,Lucknow,Uttar Pradesh
+244901, Tehsil Rampur,Rampur,Moradabad,Uttar Pradesh
+244901, Kira,Rampur,Moradabad,Uttar Pradesh
+244901, Khusro Bag,Rampur,Moradabad,Uttar Pradesh
+244901, Kemri,Rampur,Moradabad,Uttar Pradesh
+244901, Kakrawa,Rampur,Moradabad,Uttar Pradesh
+244901, Jwala Nagar,Rampur,Moradabad,Uttar Pradesh
+244901, Juthia,Rampur,Moradabad,Uttar Pradesh
+244901, Ialam Ganj,Rampur,Moradabad,Uttar Pradesh
+244901, Civil Line Rampur,Rampur,Moradabad,Uttar Pradesh
+244901, Chikti Ramnagar,Rampur,Moradabad,Uttar Pradesh
+244901, Chamroa,Rampur,Moradabad,Uttar Pradesh
+244901, C.R.P. Hq,Rampur,Moradabad,Uttar Pradesh
+244901, C & M Store,Rampur,Moradabad,Uttar Pradesh
+244901, Bhot,Rampur,Moradabad,Uttar Pradesh
+244901, Benazir,Rampur,Moradabad,Uttar Pradesh
+244901, Bara Khas,Rampur,Moradabad,Uttar Pradesh
+244901, Bakania,Rampur,Moradabad,Uttar Pradesh
+244901, Ajit Pur,Rampur,Moradabad,Uttar Pradesh
+244901, Koila,Rampur,Moradabad,Uttar Pradesh
+244901, M.B.Rampur,Rampur,Moradabad,Uttar Pradesh
+244901, Roshan Bag Road,Rampur,Moradabad,Uttar Pradesh
+244901, Rawari Kalan,Rampur,Moradabad,Uttar Pradesh
+244901, Rampur Secretariate,Rampur,Moradabad,Uttar Pradesh
+244901, Rampur Distilliry,Rampur,Moradabad,Uttar Pradesh
+244901, Rampur City,Rampur,Moradabad,Uttar Pradesh
+244901, Rampur Chowk,Rampur,Moradabad,Uttar Pradesh
+244901, Rampur,Rampur,Moradabad,Uttar Pradesh
+244901, Purana Ganj,Rampur,Moradabad,Uttar Pradesh
+244901, Punjab Nagar,Rampur,Moradabad,Uttar Pradesh
+249001, Tehri,Tehri,Tehri Garhwal,Uttarakhand
+249001, Teehri Kutchery,Tehri,Tehri Garhwal,Uttarakhand
+249001, Rajakhet,Pratapnagar,Tehri Garhwal,Uttarakhand
+249001, Pangerkhal,Tehri,Tehri Garhwal,Uttarakhand
+249001, New Tehri Collectrate,Tehri,Tehri Garhwal,Uttarakhand
+249001, Nelda,Pratapnagar,Tehri Garhwal,Uttarakhand
+249001, Kuttha,Tehri,Tehri Garhwal,Uttarakhand
+249001, Gyansoo,Tehri,Tehri Garhwal,Uttarakhand
+249001, Baurari,Tehri,Tehri Garhwal,Uttarakhand
+272152, Tilaura,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Gopalpur,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+272152, Deokali,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+272152, Daldala,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Charthari,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Bisunpurwa,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Belaukh,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Bankeygaon,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Banethu,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+272152, Arji,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Kadja,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Lahara,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Suhai Kanpurwa,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Sishania,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Sawadand,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Rithia Bazar,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Rajediha Bazar,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+272152, Pasai,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+272152, Pachmohani,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Nasirganj,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Marwatia Bazar,Bansi,Siddharthnagar,Basti,Uttar Pradesh
+272152, Agiyauna,Menhdawal,Sant Kabir Nagar,Basti,Uttar Pradesh
+303328, Sinodiya,Jaipur,Rajasthan
+303328, Bhaislana,Jaipur,Rajasthan
+303328, Bhojpura,Jaipur,Rajasthan
+303328, Dhani Boraj,Jaipur,Rajasthan
+303328, Dheendha,Jaipur,Rajasthan
+303328, Hingonia,Jaipur,Rajasthan
+303328, Jobner,Jaipur,Rajasthan
+303328, Jorpura,Jaipur,Rajasthan
+303328, Jorpura Sundariawas,Jaipur,Rajasthan
+303328, Kalakh,Jaipur,Rajasthan
+303328, Kodi,Jaipur,Rajasthan
+303328, Mundoti,Jaipur,Rajasthan
+303328, Murlipura,Jaipur,Rajasthan
+303328, Bhadwa,Jaipur,Rajasthan
+321612, Santha,Dausa,Jaipur,Rajasthan
+321612, Paota,Dausa,Jaipur,Rajasthan
+321612, Palanheda,Dausa,Jaipur,Rajasthan
+321612, Gazipura,Dausa,Jaipur,Rajasthan
+321612, Gahnoli,Dausa,Jaipur,Rajasthan
+370001, Zinkdi,Bhuj,Kutch,Gujarat
+370001, Bhuj,Bhuj,Kutch,Gujarat
+370001, Bhuj Darbargadh Chowk,Bhuj,Kutch,Gujarat
+370001, Bidar,Nakhatrana,Kutch,Gujarat
+370001, Dhori,Bhuj,Kutch,Gujarat
+370001, Dhrang,Bhuj,Kutch,Gujarat
+370001, Habay,Bhuj,Kutch,Gujarat
+370001, Kotay,Bhuj,Kutch,Gujarat
+370001, Kunariya,Bhuj,Kutch,Gujarat
+370001, Lodai,Bhuj,Kutch,Gujarat
+370001, Loria,Bhuj,Kutch,Gujarat
+370001, Mirzapar,Bhuj,Kutch,Gujarat
+370001, Nagor,Bhuj,Kutch,Gujarat
+370001, Nirona,Nakhatrana,Kutch,Gujarat
+370001, Sumrasar,Bhuj,Kutch,Gujarat
+370001, Vang,Nakhatrana,Kutch,Gujarat
+370001, Bhagadia,Bhuj,Kutch,Gujarat
+462001, Shahajahanabad,Bhopal,Madhya Pradesh
+462001, Berasia Road,Bhopal,Madhya Pradesh
+462001, Bhopal,Bhopal,Madhya Pradesh
+462001, Chhola Road,Bhopal,Madhya Pradesh
+462001, Chouk,Bhopal,Madhya Pradesh
+462001, Durga Chouk,Bhopal,Madhya Pradesh
+462001, Gandhi Medical College,Bhopal,Madhya Pradesh
+462001, Hamidia Road,Bhopal,Madhya Pradesh
+462001, Itwara,Bhopal,Madhya Pradesh
+462001, Jumerati,Bhopal,Madhya Pradesh
+462001, Kamla Park,Bhopal,Madhya Pradesh
+462001, Old Secretriate,Bhopal,Madhya Pradesh
+462001, S.I. Line,Bhopal,Madhya Pradesh
+462001, Bazaria Shahajahanabad,Bhopal,Madhya Pradesh
+462024, H.E. Hospital,Bhopal,Madhya Pradesh
+471001, Saura,Chhatarpur,Sagar,Madhya Pradesh
+471001, Ajnore,Tikamgarh,Sagar,Madhya Pradesh
+471001, Bagouta,Chhatarpur,Sagar,Madhya Pradesh
+471001, Bhadurpur,Tikamgarh,Sagar,Madhya Pradesh
+471001, Bhelsi,Baldeogarh,Tikamgarh,Sagar,Madhya Pradesh
+471001, Budera,Baldeogarh,Tikamgarh,Sagar,Madhya Pradesh
+471001, Chhatarpur,Chhatarpur,Sagar,Madhya Pradesh
+471001, Chhatarpur CB,Chhatarpur,Sagar,Madhya Pradesh
+471001, Chhatarpur City,Chhatarpur,Sagar,Madhya Pradesh
+471001, Chhatarpur Coll.,Chhatarpur,Sagar,Madhya Pradesh
+471001, Dhadari,Chhatarpur,Sagar,Madhya Pradesh
+471001, Gatheora,Chhatarpur,Sagar,Madhya Pradesh
+471001, Kalani,Chhatarpur,Sagar,Madhya Pradesh
+471001, Majna,Tikamgarh,Sagar,Madhya Pradesh
+471001, Niwari,Chhatarpur,Sagar,Madhya Pradesh
+471001, Ahar,Baldeogarh,Tikamgarh,Sagar,Madhya Pradesh
+486553, Rithi,Gurh,Rewa,Madhya Pradesh
+486553, Badwar,Gurh,Rewa,Madhya Pradesh
+486553, Barsaita,Gurh,Rewa,Madhya Pradesh
+486553, Bhita,Gurh,Rewa,Madhya Pradesh
+486553, Gurh,Huzur,Rewa,Madhya Pradesh
+486553, Hardi,Gurh,Rewa,Madhya Pradesh
+486553, Jaldar,Gurh,Rewa,Madhya Pradesh
+486553, Karaundi,Gurh,Rewa,Madhya Pradesh
+486553, Khajuha Kala,Gurh,Rewa,Madhya Pradesh
+486553, Mahsaon,Gurh,Rewa,Madhya Pradesh
+486553, Pantibadi,Gurh,Rewa,Madhya Pradesh
+486553, Patauta,Gurh,Rewa,Madhya Pradesh
+486553, Badagaon,Gurh,Rewa,Madhya Pradesh
+560064, Yelahanka,Bangalore North,Bangalore,Karnataka
+560064, Wheel And Axle Plant,Bangalore North,Bangalore,Karnataka
+560064, Singanayakanahalli,Bangalore North,Bangalore,Karnataka
+560064, Rajanakunte,Bangalore North,Bangalore,Karnataka
+560064, Kendriya Vihar,Bangalore North,Bangalore,Karnataka
+560064, Jakkur,Bangalore North,Bangalore,Karnataka
+560064, CRPF Campus Yelahanka,Bangalore North,Bangalore,Karnataka
+560064, BSF Campus Yelahanka,Bangalore North,Bangalore,Karnataka
+560064, Attur,Bangalore North,Bangalore,Karnataka
+700026, Sahanagar,Kolkata,Presidency,West Bengal
+700026, Southern Market,Kolkata,Presidency,West Bengal
+700026, R.K.Seva Pratisthan,Kolkata,Presidency,West Bengal
+700026, Kalimandir,Kolkata,Presidency,West Bengal
+700026, Keoratala,Kolkata,Presidency,West Bengal
+700026, Kalighat,Kolkata,Presidency,West Bengal
+781022, Khanapara,Gmc,Kamrup,Assam
+800013, Patliputra,Patna Sadar,Patna,Bihar
+801503, Sherpur,Danapur,Patna,Bihar
+801503, Chandmari,Danapur,Patna,Bihar
+801503, Dalip Chak,Danapur,Patna,Bihar
+801503, Danapur Bazar,Danapur,Patna,Bihar
+801503, Danapur Cantt,Danapur,Patna,Bihar
+801503, Jahankhan Road,Danapur,Patna,Bihar
+801503, Jamsaut,Danapur,Patna,Bihar
+801503, Jivrakhan Tola,Danapur,Patna,Bihar
+801503, Lal Bengwa,Danapur,Patna,Bihar
+801503, Madhopur,Danapur,Patna,Bihar
+801503, Sadikpur,Danapur,Patna,Bihar
+801503, Beapur,Danapur,Patna,Bihar
+834008, Ranchi University,Ranchi,Jharkhand
+834008, New Area Marabadi,Ranchi,Jharkhand
+834008, Morabadi,Ranchi,Jharkhand
+834008, Kanke Road,Ranchi,Jharkhand
+834008, Adalhatu,Ranchi,Jharkhand
+848201, Sumbha,Begusarai,Munger,Bihar
+848201, Bagras,Begusarai,Munger,Bihar
+848201, Chak Hamid,Begusarai,Munger,Bihar
+848201, Deopura,Begusarai,Munger,Bihar
+848201, Gamharia,Begusarai,Munger,Bihar
+848201, Ghagrha,Begusarai,Munger,Bihar
+848201, Mohanpur,Begusarai,Munger,Bihar
+848201, Rampur,Begusarai,Munger,Bihar
+848201, Samsa,Begusarai,Munger,Bihar
+848201, Sital Rampur,Begusarai,Munger,Bihar
+848201, Sonihar,Begusarai,Munger,Bihar
+848201, Sonma,Begusarai,Munger,Bihar
+848201, B.Bazar,Khagaria,Begusarai,Munger,Bihar

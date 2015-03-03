@@ -1,0 +1,193 @@
+<html>
+  <head>
+    <title>HOSTELS @ DTU</title>
+    <link href="stylesheets2/display.css" media="all" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+    window.alert('Dont forget to save this page.');
+    </script>
+  </head>
+  <body>
+    <div id="header" style="padding:0px; margin: 0 0 0 0;">
+      <center>
+<!--      <table width=100%>
+      <tbody>
+      <tr><td><img src="images/logo.gif" /></td>
+      <td>   -->
+      <div>
+      <center><img src="images/logo.gif"></center>
+      <font size="5">DELHI TECHNOLOGICAL UNIVERSITY</font><br />
+      <small>Established u6der Govt. of Delhi Act 6 of 2009</small><br />
+      <font size="3">(Formerly Delhi College of Engineering)</font><br />
+      <font size="3">SHAHBAD DAULATPUR, BAWANA ROAD, DELHI - 110042, PH - 27852204</font><br />
+      <font size="5">HOSTEL ACCOMODATION FORM</font><br />
+      <font size="3">ACADEMIC YEAR 2012 - 2013</font><br />
+      </div>
+<!--      </td>
+      </tr>
+      </tbody>
+      </table>  -->
+      </center>
+    </div>
+    <hr />
+    <div id="main">
+<center><table><tr><td><font size='+3'>Form No. - </font><font size='+6'>2M1593</font><br />Hostel Roll Number : 12345</td><td><img src='images/photo.jpg'></td></tr></table></center><p class="message">Message : Form Submitted Successfully! <a href='javascript:void(0);' onClick='window.print()'>Click Here</a> to print the form | <strong>Don't forget to save this file. Press Ctrl + S to save.</strong></p>
+
+
+
+
+<form method="post" action="/hostel_app_upload_march/public/display_reallot.php">
+    <fieldset>
+        <legend>Basic</legend>
+    <table>
+      <tr>
+        <td>Name</td><td>:</td><td><input type="text" name="name" value="Aman Samaiyar" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Gender</td><td>:</td><td><input type="text" name="gender" value="male" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Course</td><td>:</td><td><input type="text" name="course" value="UG" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Roll No. / Reg No.</td><td>:</td><td><input type="text" value="2K10/EL/011" readonly="readonly" name="roll_no" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Branch</td><td>:</td><td><input type="text" value="ECE" readonly="readonly" name="branch" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Semester</td><td>:</td><td><input type="text" name="sem" value="2" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Year of Admission</td><td>:</td><td><input type="text" name="year_of_admn" value="2010" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Admission Category</td><td>:</td><td><input type="text" name="category_code" value="OOP" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Personal Mobile No.</td><td>:</td><td><input type="text" name="personal_phone" value="9868100090" readonly="readonly" maxlength="10" size="50" /></td>
+      </tr>
+      <tr>
+        <td>E - mail id</td><td>:</td><td><input type="text" name="email" value="amansamaiyar@gmail.com" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Last Years details</td><td>:</td><td><input type="text" name="last_yr_details" value="Last room : BCH 130 Backs : 3" readonly="readonly" size="100" /></td>
+      </tr>
+      <tr>
+        <td>Father's Name</td><td>:</td><td><input type="text" name="father_name" value="Ak samaiyar" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Father's Phone No.</td><td>:</td><td><input type="text" name="father_phone" value="09868100090" readonly="readonly" maxlength="15" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Mother's Name</td><td>:</td><td><input type="text" name="mother_name" value="manisha" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Mother's Phone No.</td><td>:</td><td><input type="text" name="mother_phone" value="09868100090" readonly="readonly" maxlength="15" size="50" /></td>
+      </tr>
+      <tr>
+        <td>School</td><td>:</td><td><input type="text" name="school" maxlength="10" value="DPS" readonly="readonly" size="50" /></td>
+      </tr>
+    </table>
+    </fieldset>
+    <br /><br />
+    <fieldset>
+        <legend>Present Residential Address (Parents)</legend>
+    <table>
+      <tr>
+        <td>Address Line</td><td>:</td><td><input type="text" name="present_add_line" value="130, BCH Hostel" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>City</td><td>:</td><td><input type="text" name="present_city" value="Delhi" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>State</td><td>:</td><td><input type="text" name="present_state" value="Delhi" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Country</td><td>:</td><td><input type="text" name="present_country" value="India" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Pin</td><td>:</td><td><input type="text" name="present_pin" value="201301" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Residential Phone</td><td>:</td><td><input type="text" name="present_res_phone" value="09868100090" readonly="readonly" size="50" /></td>
+      </tr>
+    </table>
+    </fieldset>
+    <br /><br />
+    <fieldset>
+        <legend>Permanent Residential Address (Parents)</legend>
+    <table>
+      <tr>
+        <td>Address Line</td><td>:</td><td><input type="text" name="permanent_add_line" value="130, BCH Hostel" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>City</td><td>:</td><td><input type="text" name="permanent_city" value="Delhi" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>State</td><td>:</td><td><input type="text" name="permanent_state" value="Delhi" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Country</td><td>:</td><td><input type="text" name="permanent_country" value="India" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Pin</td><td>:</td><td><input type="text" name="permanent_pin" value="201301" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Residential Phone</td><td>:</td><td><input type="text" name="permanent_res_phone" value="09868100090" readonly="readonly" size="50" /></td>
+      </tr>
+      </table>
+    </fieldset>
+    <br /><br />
+    <fieldset>
+        <legend>Local Guardian's Information</legend>
+    <table>
+      <tr>
+        <td>Local Guardian's Name</td><td>:</td><td><input type="text" name="present_lg_name" value="abcd" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Local Guardian's Address</td><td>:</td><td><input type="text" name="present_lg_address" value="130, BCH Hostel" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Local Guardian's Phone</td><td>:</td><td><input type="text" name="present_lg_phone" value="09868100090" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Hostel Roll Number</td><td>:</td><td><input type="text" name="recipt" value="12345" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Blood Group</td><td>:</td><td><input type="text" name="blood_group" value="O+" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr>
+        <td>Chronic Problems if Any</td><td>:</td><td><input type="text" name="chronic" value="nil" readonly="readonly" size="50" /></td>
+      </tr>
+      <tr><td colspan=3><hr /></td></tr>
+      <tr>
+        <td></td><td></td><td></td>
+      </tr>
+    </table>
+    </fieldset>
+</form>
+
+
+</div>
+<hr />
+<br /><br /><br />
+<div>
+    <p align="right">Signature of Applicant</p>
+    <b>I certify :</b><br />
+    <ol>
+        <li>That I shall vacate my room within 3 days of last examination in each year.</li>
+        <li>That I shall abide the rules and regulaions of University Hostels and the University and shall conduct in a manner worthy of being a student of DTU and shall never indulg in indiscipline/voilence.</li>
+        <li>That the information furnished by me is true to the best of my knowledge and belief. If any information found wrong my admission may be cancelled.</li>
+    </ol>
+    <br /><br /><br />
+    <p align="right">Signature of Applicant</p>
+    <p>Remarks by Warden ___________________________________________________________________________________________________________</p>
+    <br />
+    <p align="right">Signature of Warden</p>
+    <p align="left">Date : 09-06-2012</p>
+</div>
+<center>    
+<div id="footer"><hr />Powered By DWD-DTU, Copyright 2012</div>
+</center>
+</body>
+</html>

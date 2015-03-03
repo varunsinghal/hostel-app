@@ -1,0 +1,6 @@
+<select name="course" onchange="hostel_roll_course(this.value);">
+<option value="BTECH" id="btech">B.TECH</option>
+<option value="MTECH" id="mtech">M.TECH</option>
+<option value="MBA" id="mba">MBA</option>
+<option value="PhD" id="phd">Ph.D</option>
+</select>

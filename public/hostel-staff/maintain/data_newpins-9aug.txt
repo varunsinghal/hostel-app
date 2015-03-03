@@ -1,0 +1,217 @@
+122017, Palam Vihar,Palam Vihar,Gurgaon,Haryana
+122017, Carterpuri,Palam Vihar,Gurgaon,Haryana
+136027, Titram,Kaithal,Ambala,Haryana
+136027, Keorak,Kaithal,Ambala,Haryana
+136027, Kassan,Kaithal,Ambala,Haryana
+136027, Karnal Road Kaithal,Kaithal,Ambala,Haryana
+136027, Kaithal City,Kaithal,Ambala,Haryana
+136027, Kaithal,Kaithal,Ambala,Haryana
+136027, Jakholi,Kaithal,Ambala,Haryana
+136027, Harsola,Kaithal,Ambala,Haryana
+136027, Gulyana Songri,Kaithal,Ambala,Haryana
+136027, Guhna,Kaithal,Ambala,Haryana
+136027, Geong,Kaithal,Ambala,Haryana
+136027, Dewal,Kaithal,Ambala,Haryana
+136027, Deoban,Kaithal,Ambala,Haryana
+136027, Chandana,Kaithal,Ambala,Haryana
+136027, Budha Khera,Kaithal,Ambala,Haryana
+136027, Kheri Simbal Wali,Kaithal,Ambala,Haryana
+136027, Khurana,Kaithal,Ambala,Haryana
+136027, Kichhana,Kaithal,Ambala,Haryana
+136027, Teek,Kaithal,Ambala,Haryana
+136027, Songal,Kaithal,Ambala,Haryana
+136027, Siwan Gate Kaithal,Kaithal,Ambala,Haryana
+136027, Sirta,Kaithal,Ambala,Haryana
+136027, Peoda,Kaithal,Ambala,Haryana
+136027, Patti Afgan,Kaithal,Ambala,Haryana
+136027, Padla,Kaithal,Ambala,Haryana
+136027, Nauch,Kaithal,Ambala,Haryana
+136027, Narar,Kaithal,Ambala,Haryana
+136027, Manas,Kaithal,Ambala,Haryana
+136027, Majra Nand Karan,Kaithal,Ambala,Haryana
+160071, Sector 71,Chandigarh
+194101, Stok,Leh,Jammu and Kashmir
+194101, Chuchot Gongma,Leh,Jammu and Kashmir
+194101, Chuchot Shama,Leh,Jammu and Kashmir
+194101, Chuchot Yokma,Leh,Jammu and Kashmir
+194101, Chuchul,Leh,Jammu and Kashmir
+194101, Durbuk,Leh,Jammu and Kashmir
+194101, Faing,Leh,Jammu and Kashmir
+194101, Horzey,Leh,Jammu and Kashmir
+194101, Leh,Leh,Jammu and Kashmir
+194101, Leh City,Leh,Jammu and Kashmir
+194101, Matho,Leh,Jammu and Kashmir
+194101, Ney,Leh,Jammu and Kashmir
+194101, Nomoo,Leh,Jammu and Kashmir
+194101, Nyoma,Leh,Jammu and Kashmir
+194101, Spituk,Leh,Jammu and Kashmir
+194101, Bazgo,Leh,Jammu and Kashmir
+201306, Tilapta Karanwas,Dadri,Gautam Buddha Nagar,Meerut,Uttar Pradesh
+201306, Sakipur,Dadri,Gautam Buddha Nagar,Meerut,Uttar Pradesh
+201306, Kulesra,Dadri,Gautam Buddha Nagar,Meerut,Uttar Pradesh
+201306, Kasna,Dadri,Gautam Buddha Nagar,Meerut,Uttar Pradesh
+201306, I.A. Surajpur,Noida,Gautam Buddha Nagar,Meerut,Uttar Pradesh
+201306, Ghori,Dadri,Gautam Buddha Nagar,Meerut,Uttar Pradesh
+208025, Saketpuri,Kanpur Nagar,Kanpur,Uttar Pradesh
+208025, Naveen Nagar,Kanpur Nagar,Kanpur,Uttar Pradesh
+226022, Vikas Nagar,Lucknow,Uttar Pradesh
+226022, Kalyanpur,Lucknow,Uttar Pradesh
+243122, Saidpur Hakins,Bareilly,Uttar Pradesh
+243122, Rithora,Bareilly,Uttar Pradesh
+243122, Nrmc,Bareilly,Uttar Pradesh
+243122, Ner Workshop,Bareilly,Uttar Pradesh
+243122, Mundia Ahamad Nagar,Bareilly,Uttar Pradesh
+243122, Izzat Nagar,Bareilly,Uttar Pradesh
+243122, C.A.R.I,Bareilly,Uttar Pradesh
+243122, Biharman Nagla,Bareilly,Uttar Pradesh
+243122, Bhandsar,Bareilly,Uttar Pradesh
+244235, Tigree,Dhanaura,Jyotiba Phule Nagar,Moradabad,Uttar Pradesh
+244235, Salempurgosai,Dhanaura,Jyotiba Phule Nagar,Moradabad,Uttar Pradesh
+244235, Nagliamev,Dhanaura,Jyotiba Phule Nagar,Moradabad,Uttar Pradesh
+244235, Khadgujar,Dhanaura,Jyotiba Phule Nagar,Moradabad,Uttar Pradesh
+244235, Kankather,Dhanaura,Jyotiba Phule Nagar,Moradabad,Uttar Pradesh
+244235, Gajraula,Dhanaura,Jyotiba Phule Nagar,Moradabad,Uttar Pradesh
+244235, Bijaura,Dhanaura,Jyotiba Phule Nagar,Moradabad,Uttar Pradesh
+244235, Bahroli Taharpur,Chandausi,Moradabad,Uttar Pradesh
+248008, Tapovan,Dehradun,Uttarakhand
+248008, Saura Sarauli,Dehradun,Uttarakhand
+248008, Raipur,Dehradun,Uttarakhand
+248008, Nathuwala,Dehradun,Uttarakhand
+248008, Nakronda,Dehradun,Uttarakhand
+248008, Maldevta,Dehradun,Uttarakhand
+248008, Kumalda,Dhanolti,Tehri Garhwal,Uttarakhand
+248008, Dwara,Dehradun,Uttarakhand
+248008, Barasi,Dehradun,Uttarakhand
+248171, Mehuwala,Dehradun,Uttarakhand
+248171, Majra,Dehradun,Uttarakhand
+250626, Tikri,Baraut,Bagpat,Meerut,Uttar Pradesh
+250626, Dhaulri,Meerut,Uttar Pradesh
+250626, Dolhca,Meerut,Uttar Pradesh
+250626, Duttnagar,Baraut,Bagpat,Meerut,Uttar Pradesh
+250626, Gangnauli,Baraut,Bagpat,Meerut,Uttar Pradesh
+250626, Mohd. Pur Bhoomi,Meerut,Uttar Pradesh
+250626, Mozizabad Nangal,Baraut,Bagpat,Meerut,Uttar Pradesh
+250626, Mukri,Meerut,Uttar Pradesh
+250626, Sujti,Baraut,Bagpat,Meerut,Uttar Pradesh
+250626, Baleni,Meerut,Uttar Pradesh
+282003, Yamuna Kinara,Agra,Uttar Pradesh
+282003, Agra City,Agra,Uttar Pradesh
+282003, Agra Fort,Agra,Uttar Pradesh
+282003, B.P Oilmill,Agra,Uttar Pradesh
+282003, Chimman Lal Road,Agra,Uttar Pradesh
+282003, G.M Khan,Agra,Uttar Pradesh
+282003, Gandhi Nagar,Agra,Uttar Pradesh
+282003, Hospital Road,Agra,Uttar Pradesh
+282003, Johri Bazar,Agra,Uttar Pradesh
+282003, Kalibari,Agra,Uttar Pradesh
+282003, Moti Katara,Agra,Uttar Pradesh
+282003, Phulatti Bazar,Agra,Uttar Pradesh
+282003, Rawatpara,Agra,Uttar Pradesh
+282003, Sadarbhatti,Agra,Uttar Pradesh
+282003, Shoe Market,Agra,Uttar Pradesh
+282003, Wazir Pura,Agra,Uttar Pradesh
+282003, Agra Chauk,Agra,Uttar Pradesh
+312001, Semlia,Chittorgarh,Udaipur,Rajasthan
+312001, Bansen,Bhadesar,Chittorgarh,Udaipur,Rajasthan
+312001, Chittorgarh,Chittorgarh,Udaipur,Rajasthan
+312001, Chittorgarh Fort,Chittorgarh,Udaipur,Rajasthan
+312001, Collectorate Chittorgarh,Chittorgarh,Udaipur,Rajasthan
+312001, Deori,Chittorgarh,Udaipur,Rajasthan
+312001, Metawal Garh Pachholi,Chittorgarh,Udaipur,Rajasthan
+312001, Ochhari,Chittorgarh,Udaipur,Rajasthan
+312001, Pipalwas,Chittorgarh,Udaipur,Rajasthan
+312001, Ranasanga Bazar Chittorgarh,Chittorgarh,Udaipur,Rajasthan
+312001, Sadarbazar Chittorgarh,Chittorgarh,Udaipur,Rajasthan
+312001, Sehnwa,Chittorgarh,Udaipur,Rajasthan
+312001, Semalpura,Chittorgarh,Udaipur,Rajasthan
+312001, Akiya,Chittorgarh,Udaipur,Rajasthan
+333023, Pakori Dhani,Chirawa,Jhunjhunu,Jaipur,Rajasthan
+333023, Alipur,Jhunjhunu,Jaipur,Rajasthan
+333023, Bagar,Jhunjhunu,Jaipur,Rajasthan
+333023, Bakhatawarpura,Jhunjhunu,Jaipur,Rajasthan
+333023, Budana,Jhunjhunu,Jaipur,Rajasthan
+333023, Desusar,Jhunjhunu,Jaipur,Rajasthan
+333023, Jaipahari,Jhunjhunu,Jaipur,Rajasthan
+333023, Kasimpura,Jhunjhunu,Jaipur,Rajasthan
+333023, Khudana,Jhunjhunu,Jaipur,Rajasthan
+333023, Lalpur,Jhunjhunu,Jaipur,Rajasthan
+333023, Lamba,Chirawa,Jhunjhunu,Jaipur,Rajasthan
+333023, Narnod Maligaon,Chirawa,Jhunjhunu,Jaipur,Rajasthan
+333023, Adarsh Nagar,Jhunjhunu,Jaipur,Rajasthan
+342001, Surani,Jodhpur,Rajasthan
+342001, Jhanwar,Jodhpur,Rajasthan
+342001, Janadesar,Jodhpur,Rajasthan
+342001, Doli,Jodhpur,Rajasthan
+342001, Dhawa,Jodhpur,Rajasthan
+342001, Dhandhaniya Bhayalan,Jodhpur,Rajasthan
+342001, Dhandhaniya,Jodhpur,Rajasthan
+342001, Daibara Kheechiyan,Jodhpur,Rajasthan
+342001, Chokhan,Jodhpur,Rajasthan
+342001, Chincharli,Jodhpur,Rajasthan
+342001, Chhali,Jodhpur,Rajasthan
+342001, Bhandu Kalan,Jodhpur,Rajasthan
+342001, Bavarli,Jodhpur,Rajasthan
+342001, Barli,Jodhpur,Rajasthan
+342001, Bambore Darjiyan,Jodhpur,Rajasthan
+342001, Jodhpur,Jodhpur,Rajasthan
+342001, Jodhpur Bhagat Ki Kothi,Jodhpur,Rajasthan
+342001, Subdand,Jodhpur,Rajasthan
+342001, Siwanchi Gate,Jodhpur,Rajasthan
+342001, Sinli,Jodhpur,Rajasthan
+342001, Sadliya,Jodhpur,Rajasthan
+342001, Railway Office,Jodhpur,Rajasthan
+342001, Pal,Jodhpur,Rajasthan
+342001, Narnadi,Jodhpur,Rajasthan
+342001, Lunawas Khara,Jodhpur,Rajasthan
+342001, Lunawas Kallan,Jodhpur,Rajasthan
+342001, Lodi Daijran,Jodhpur,Rajasthan
+342001, Khudala,Jodhpur,Rajasthan
+342001, Kabutaron Ka Chowk,Jodhpur,Rajasthan
+400088, Trombay,Mumbai,Konkan,Maharashtra
+400088, T.F.Donar,Mumbai,Konkan,Maharashtra
+400088, Govandi,Mumbai,Konkan,Maharashtra
+400088, Cheeta Camp,Mumbai,Konkan,Maharashtra
+400101, Kandivali East,Kandivali East,Mumbai,Konkan,Maharashtra
+400706, Nerul Sector-48,Thane,Konkan,Maharashtra
+400706, Nerul Node-III,Thane,Konkan,Maharashtra
+400706, Nerul Node-II,Thane,Konkan,Maharashtra
+400706, Darave,Thane,Konkan,Maharashtra
+462016, Shivaji Nagar,Bhopal,Madhya Pradesh
+462016, R.S.Nagar,Bhopal,Madhya Pradesh
+462016, R.S.Market,Bhopal,Madhya Pradesh
+462016, Mahaveer Nagar,Bhopal,Madhya Pradesh
+462016, E-2 Sector,Bhopal,Madhya Pradesh
+462016, 1100 Qrts.,Bhopal,Madhya Pradesh
+522311, Sangupalem,Bapatla,Guntur,Andhra Pradesh
+522311, Koduru-komali,Bapatla,Guntur,Andhra Pradesh
+522311, Chandole,Bapatla,Guntur,Andhra Pradesh
+522311, Bhoolayapalem,Bapatla,Guntur,Andhra Pradesh
+522311, Bhavanamvaripalem,Bapatla,Guntur,Andhra Pradesh
+744101, Port Blair,Port Blair,Andaman,Andaman and Nicobar Islands
+761014, Singipur,Digapahandi,Ganjam,Orissa
+761014, Pudamari,Digapahandi,Ganjam,Orissa
+761014, Patiguda,Digapahandi,Ganjam,Orissa
+761014, P.Govindapur,Digapahandi,Ganjam,Orissa
+761014, Kansamari,Digapahandi,Ganjam,Orissa
+761014, Chanamari,Digapahandi,Ganjam,Orissa
+791120, Yachuli,Ziro,Lower Subansiri,Arunachal Pradesh
+791120, Talo,Ziro,Lower Subansiri,Arunachal Pradesh
+791120, Raga,Ziro,Lower Subansiri,Arunachal Pradesh
+791120, Old Ziro,Ziro,Lower Subansiri,Arunachal Pradesh
+791120, Joram,Ziro,Lower Subansiri,Arunachal Pradesh
+791120, Hija,Ziro,Lower Subansiri,Arunachal Pradesh
+791120, Godak,Ziro,Lower Subansiri,Arunachal Pradesh
+791120, Deed,Ziro,Lower Subansiri,Arunachal Pradesh
+791120, Boasimla,Ziro,Lower Subansiri,Arunachal Pradesh
+800023, L.B.S Nagar,Patna Sadar,Patna,Bihar
+813203, Shobnathpur,Kahalgoan,Bhagalpur,Bihar
+813203, Sangitbaita,Kahalgoan,Bhagalpur,Bihar
+813203, Patharghatta,Kahalgoan,Bhagalpur,Bihar
+813203, Lalapur Bhader,Kahalgoan,Bhagalpur,Bihar
+813203, Kasri,Kahalgoan,Bhagalpur,Bihar
+813203, Kalgigaj,Kahalgoan,Bhagalpur,Bihar
+813203, Kahalgaon,Kahalgoan,Bhagalpur,Bihar
+813203, Bhawanipur,Kahalgoan,Bhagalpur,Bihar
+814112, B.Deoghar,Deoghar,Jharkhand
+829143, Gegda,Patratu,Hazaribag,Jharkhand
+829143, Balkudra,Patratu,Hazaribag,Jharkhand
