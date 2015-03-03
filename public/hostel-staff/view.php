@@ -176,7 +176,7 @@ else
 {
 $row=mysql_fetch_array($res);
 echo '
-<tr><td colspan="3"><strong>Present Address Details</strong></td></tr>
+<tr><td colspan="3"><strong>Permanent Address Details</strong></td></tr>
 <tr><td>Address Line</td><td>&ensp; : &ensp;</td><td>'.$row['permanent_add_line'].'</td></tr>
 <tr><td>City</td><td>&ensp; : &ensp;</td><td>'.$row['permanent_city'].'</td></tr>
 <tr><td>State</td><td>&ensp; : &ensp;</td><td>'.$row['permanent_state'].'</td></tr>
