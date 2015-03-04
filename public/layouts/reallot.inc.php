@@ -54,7 +54,7 @@ border-bottom: 1px solid black;
 
 <div class="grid_5" align="right">
 
-<span style="font-size:15px">HOSTEL <b>REGISTRATION</b> FORM</span><br />
+<span style="font-size:15px">HOSTEL <b>REALLOTMENT</b> FORM</span><br />
 
 <span>ACADEMIC YEAR 2015 - 2016</span><br />
 
@@ -104,7 +104,7 @@ border-bottom: 1px solid black;
 
 	<tr><td>Admission category</td><td>{category_code}</td></tr>
 
-	<tr><td>Back Papers<small>(For Senior students)</small></td><td>{backs}</td></tr>
+	<tr><td>Back Papers<small>(For Senior)</small></td><td>{backs}</td></tr>
 
 	<tr><td>Last Room</td><td><b>{last_room}</b></td></tr>
 	
