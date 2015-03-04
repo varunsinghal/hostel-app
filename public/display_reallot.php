@@ -4,7 +4,7 @@ require_once("../includes/initialize.php");
     include_once 'securimage/securimage.php';
     $securimage = new Securimage();
     if ($securimage->check($_POST['captcha_code']) == false) {
-        echo '<script>history.go(-1)</script>';
+        redirect_to('reallot.php?error=captcha');
         exit;
     }
     
@@ -91,10 +91,10 @@ if(isset($_POST['submit'])){
   $student->course                = $_POST['course']; 
   $student->roll_no               = $_POST['roll_no'];
   //bank_details
-  $student->bank_name 			  = $_POST['bank_name'];
+  $student->bank_name 		  = $_POST['bank_name'];
   $student->bank_code             = $_POST['bank_code'];
   $student->bank_acc              = $_POST['bank_accountno']; 
-  $student->bank_acc_name 		  = $_POST['bank_acc_name'];
+  $student->bank_acc_name 	  = $_POST['bank_acc_name'];
   $student->bank_ifsc             = $_POST['bank_ifsc'];
   $student->bank_add              = $_POST['bank_add']; 
   //parent_details  
