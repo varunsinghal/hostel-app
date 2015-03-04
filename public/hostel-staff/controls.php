@@ -208,15 +208,7 @@ echo '<hr />';
 <small>If you come across any error or discrepancy please click on service button</small><hr />
 <a href="service.php"><button style="color:#CCC; background: #400080; width:100px; height: 40px;">Service</button></a>
 &ensp;
-<a href="service_sem.php"><button style="color:#CCC; background: #400080; width:100px; height: 40px;">Semester</button></a>
-&ensp;
-<a href="service_parents.php"><button style="color:#CCC; background: #400080; width:130px; height: 40px;">Parent Details</button></a>
-&ensp;
-<a href="service_photo.php"><button style="color:#CCC; background: #400080; width:150px; height: 40px;">Photograph Errors</button></a>
-&ensp;
 <a href="service_surrender.php"><button style="color:#CCC; background: #400080; width:100px; height: 40px;">Surrender</button></a>
-&ensp;
-<a href="service_recipt.php"><button style="color:#CCC; background: #400080; width:100px; height: 40px;">Recipt</button></a>
 &ensp;
 <hr />
 
