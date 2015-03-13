@@ -23,6 +23,7 @@ ob_start();
 	      <option value="phone">Personal Phone of Student</option>
 	      <option value="school">School</option>
 	      <option value="fathername">Father's Name</option>
+	      <option value="fatherocc">Father's Occupation</option>
  		<option value="remarks">Remarks</option>
        </select>
        &nbsp;&nbsp;&nbsp;
@@ -133,6 +134,19 @@ case 'remarks' : {
 	    else
 	    {
 		$sql = "SELECT distance_from_home.*,".$table_name.".* FROM distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
+	    }
+	    break;
+	}
+        case 'fatherocc' : {
+	    $table_name = 'parent_details';
+	    $search_field = 'father_occupation';
+	    if(isset($_GET['allotted']))
+	    {
+		$sql = "SELECT available_room.*,distance_from_home.*,".$table_name.".* FROM available_room,distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
+	    }
+	    else
+	    {
+		$sql = "SELECT DISTINCT distance_from_home.*,".$table_name.".* FROM distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
 	    }
 	    break;
 	}
