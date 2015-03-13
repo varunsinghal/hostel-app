@@ -9,7 +9,7 @@ ob_start();
 </script>
 <script type='text/javascript'>
 function get_columns(table_name){
-document.getElementById('f1').innerHTML = "<center><img src='images/ajax-loader_b.gif' height=24></center>'";
+document.getElementById('f1').innerHTML = "<img src='images/ajax-loader_b.gif' height=24>'";
 	if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
 		xmlhttp = new XMLHttpRequest();
 	} else { // code for IE6, IE5
