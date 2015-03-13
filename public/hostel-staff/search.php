@@ -3,29 +3,45 @@ require_once("../../includes/initialize.php");
 if(!$session->is_logged_in()){ redirect_to("login.php"); }
 include_layout_template('admin_header.php');
 ob_start();
-
 ?>
 
 <script type='text/javascript' src="side_functions.js">
 </script>
-
+<script type='text/javascript'>
+function get_columns(table_name){
+document.getElementById('f1').innerHTML = "<center><img src='images/ajax-loader_b.gif' height=24></center>'";
+	if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp = new XMLHttpRequest();
+	} else { // code for IE6, IE5
+		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.onreadystatechange = function () {
+		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+			document.getElementById('f1').innerHTML = xmlhttp.responseText;
+		}
+	}
+	xmlhttp.open("GET", "get_columns.php?table_name=" + table_name, true);
+	xmlhttp.send();
+}
+</script>
 <center><h2 style="color:#ccc">Search</h2></center>
 <br />
 
 <form action="search.php" method="get" name="main">
        
        Search By:<br><br>
-       <select name="condition">
-	      <option value="formno">Form Number</option>
-	      <option value="name">Name</option>
-	      <option value="presentaddr">Present Adderess</option>
-	      <option value="roomno">Room No</option>
-	      <option value="phone">Personal Phone of Student</option>
-	      <option value="school">School</option>
-	      <option value="fathername">Father's Name</option>
-	      <option value="fatherocc">Father's Occupation</option>
- 		<option value="remarks">Remarks</option>
-       </select>
+
+<select name="table_name" onchange="get_columns(this.value)">
+<option value="" disabled selected>Select Domain</option>
+<?php 
+$sql = "show tables";
+$query = $database->query($sql);
+while($tables = $database->fetch_array($query)){
+echo '<option value="'.$tables[0].'">'.refine($tables[0]).'</option>';
+}
+?>
+</select>
+<span id="f1"></span>
        &nbsp;&nbsp;&nbsp;
        Enter Query: <input type="text" name="query" />
        &nbsp;&nbsp;&nbsp;
@@ -44,10 +60,11 @@ if(isset($_GET['query']))
     {
 	$search_query = addslashes($search_query);
     }
-    $search_query2 = $_GET['condition'];
-    switch ($search_query2)
+    $table_name = $_GET['table_name'];
+    $search_field = $_GET['column_name'];
+    switch ($search_field)
     {
-	case 'formno' : {
+	case 'student_id' : {
 	    $table_name = 'student';
 	    $search_field = 'student_id';
 	    if(!isset($_GET['allotted']))
@@ -60,112 +77,16 @@ if(isset($_GET['query']))
 	    }
 	    break;
 	}
-	case 'name' : {
-	    $table_name = 'student';
-	    $search_field = 'name';
-	    if(isset($_GET['allotted']))
-	    {
-		$sql = "SELECT available_room.*,distance_from_home.*,".$table_name.".* FROM available_room,distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    else
-	    {
-		$sql = "SELECT DISTINCT distance_from_home.*,".$table_name.".* FROM distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    break;
-	}
-case 'remarks' : {
-	    $table_name = 'remarks';
-	    $search_field = 'remarks';
-	    if(isset($_GET['allotted']))
-	    {
-		$sql = "SELECT available_room.*,distance_from_home.*,".$table_name.".* FROM available_room,distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    else
-	    {
-		$sql = "SELECT DISTINCT distance_from_home.*,".$table_name.".* FROM distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    break;
-}
-	case 'presentaddr' : {
-	    $table_name = 'present_address';
-	    if(isset($_GET['allotted']))
-	    {
-		$sql = "SELECT available_room.*,".$table_name.".* FROM available_room,".$table_name." WHERE present_add_line LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id UNION SELECT available_room.*,".$table_name.".* FROM available_room,".$table_name." WHERE present_city LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id UNION SELECT available_room.*,".$table_name.".* FROM available_room,".$table_name." WHERE present_state LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id UNION SELECT available_room.*,".$table_name.".* FROM available_room,".$table_name." WHERE present_country LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id UNION SELECT available_room.*,".$table_name.".* FROM available_room,".$table_name." WHERE present_pin LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id UNION SELECT available_room.*,".$table_name.".* FROM available_room,".$table_name." WHERE present_res_phone LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id ";
-	    }
-	    else
-	    {
-		$sql = "SELECT ".$table_name.".* FROM ".$table_name." WHERE present_add_line LIKE '%$search_query%' UNION SELECT ".$table_name.".* FROM ".$table_name." WHERE present_city LIKE '%$search_query%' UNION SELECT ".$table_name.".* FROM ".$table_name." WHERE present_state LIKE '%$search_query%' UNION SELECT ".$table_name.".* FROM ".$table_name." WHERE present_country LIKE '%$search_query%' UNION SELECT ".$table_name.".* FROM ".$table_name." WHERE present_pin LIKE '%$search_query%' UNION SELECT ".$table_name.".* FROM ".$table_name." WHERE present_res_phone LIKE '%$search_query%'";
-	    }
-	    break;
-	}
-	case 'roomno' : {
-	    $table_name = 'available_room';
-	    $search_field = 'room_no';
-	    if(isset($_GET['allotted']))
-	    {
-		$sql = "SELECT available_room.*,distance_from_home.*,".$table_name.".* FROM available_room,distance_from_home,".$table_name." WHERE ".$search_field." = '$search_query' AND available_room.student_id = ".$table_name.".student_id AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    else
-	    {
-		$sql = "SELECT distance_from_home.*,".$table_name.".* FROM distance_from_home,".$table_name." WHERE ".$search_field." = '$search_query' AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    break;
-	}
-	case 'phone' : {
-	    $table_name = 'student';
-	    $search_field = 'personal_phone';
-	    if(isset($_GET['allotted']))
-	    {
-		$sql = "SELECT available_room.*,distance_from_home.*,".$table_name.".* FROM available_room,distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    else
-	    {
-		$sql = "SELECT distance_from_home.*,".$table_name.".* FROM distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    break;
-	}
-	case 'school' : {
-	    $table_name = 'student';
-	    $search_field = 'school';
-	    if(isset($_GET['allotted']))
-	    {
-		$sql = "SELECT available_room.*,distance_from_home.*,".$table_name.".* FROM available_room,distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    else
-	    {
-		$sql = "SELECT distance_from_home.*,".$table_name.".* FROM distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    break;
-	}
-        case 'fatherocc' : {
-	    $table_name = 'parent_details';
-	    $search_field = 'father_occupation';
-	    if(isset($_GET['allotted']))
-	    {
-		$sql = "SELECT available_room.*,distance_from_home.*,".$table_name.".* FROM available_room,distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    else
-	    {
-		$sql = "SELECT DISTINCT distance_from_home.*,".$table_name.".* FROM distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    break;
-	}
-	case 'fathername' : {
-	    $table_name = 'student';
-	    $search_field = 'father_name';
-	    if(isset($_GET['allotted']))
-	    {
-		$sql = "SELECT available_room.*,distance_from_home.*,".$table_name.".* FROM available_room,distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    else
-	    {
-		$sql = "SELECT distance_from_home.*,".$table_name.".* FROM distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
-	    }
-	    break;
-	}
 	default : {
-	    echo output_message("Some Error Occoured. Go to home and Try again.");
-	    exit;
+	    if(isset($_GET['allotted']))
+	    {
+		$sql = "SELECT available_room.*,distance_from_home.*,".$table_name.".* FROM available_room,distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND available_room.student_id = ".$table_name.".student_id AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
+	    }
+	    else
+	    {
+		$sql = "SELECT DISTINCT distance_from_home.*,".$table_name.".* FROM distance_from_home,".$table_name." WHERE ".$search_field." LIKE '%$search_query%' AND ".$table_name.".student_id = distance_from_home.student_id ORDER BY distance_from_home.distance DESC";
+	    }
+	    break;
 	}
     }
     echo "Search results for: <b>".$_GET['query']."</b><br /><br />";
