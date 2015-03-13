@@ -15,6 +15,19 @@ function redirect_to($location = NULL){
   }
 }
 
+function refine($input){
+  $input = str_replace('_', ' ', $input);
+  $input = str_replace('name2', 'name', $input);
+  $input = str_replace('recipt', 'hostel roll no', $input);
+  $input = str_replace('acc name', 'holder name', $input);
+  $input = str_replace('acc', 'account No.', $input);
+  $input = str_replace('des', 'designation', $input);
+  $input = preg_replace('/add line$/', 'address line', $input);
+  $input = preg_replace('/add$/', 'address', $input);
+  //$input = str_replace('add', 'address', $input);
+  $input = ucwords($input);
+  return $input;
+}
 
 function output_message($message = ""){
   if(!empty($message)){
