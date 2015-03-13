@@ -87,7 +87,7 @@ Actions -<br /><br />
 <li><a href="status.php"><img src="../images/stats.png" alt="" /><span>Status</span></a></li>
 <li><a href="hostel_room_management.php"><img src="../images/manage-hostel.png" alt="" /><span>Manage Rooms</span></a></li>
 <li><a href="viewfeedback.php"><img src="../images/terms.jpg" alt="" /><span>Feedback System</span></a></li>
-<li><a href="search.php?condition=remarks&query=surrender"><img src="../images/surrender.jpg" alt="" /><span>Surrendered Rooms</span></a></li>
+<li><a href="search.php?table_name=remarks&column_name=remarks&query=surrender"><img src="../images/surrender.jpg" alt="" /><span>Surrendered Rooms</span></a></li>
 <li><a href="public_links.php"><img src="../images/public-links.png" alt="" /><span>Public Links</span></a></li>
 <li><a href="viewuser.php"><img src="../images/admins.png" alt="" /><span>Users</span></a></li>
 <li><a href="gmaps" target="_blank"><img src="../images/gmaps.png" alt="" /><span>Google Map Tool</span></a></li>
