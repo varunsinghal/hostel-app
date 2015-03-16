@@ -24,6 +24,7 @@ function refine($input){
   $input = str_replace('des', 'designation', $input);
   $input = preg_replace('/add line$/', 'address line', $input);
   $input = preg_replace('/add$/', 'address', $input);
+  $input = str_replace('student id', 'form no', $input);
   //$input = str_replace('add', 'address', $input);
   $input = ucwords($input);
   return $input;
