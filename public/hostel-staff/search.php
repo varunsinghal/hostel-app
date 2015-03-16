@@ -94,7 +94,7 @@ if(isset($_GET['query']))
     $count_all = mysql_num_rows($result);
     echo '<table width=100% style="background-color: #CCFFD9;border: solid;border-width: 1px;"><tr><td style="padding: 10px;">
 	<p><b><span style="color:#CC0000;">Search Results</span></b><br />
-	Query: '.$table_name.', '.$search_field.' = '.$_GET['query'];
+	Query: '.refine($table_name).', '.refine($search_field).' = '.$_GET['query'];
     echo '<br />Total Search Result : '.$count_all.'</p></td></tr></table><br/><br/>';
     echo '<table width=100%>
     <tr><th>Form No.</th><th>Academics</th><th>Name</th><th>Type</th><th>Present Address</th><th>Distance</th><th>Category</th><th>Verified</th><th>Room No</th><th>Actions</th></tr>';
