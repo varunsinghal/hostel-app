@@ -92,7 +92,7 @@ Actions -<br /><br />
 <li><a href="viewuser.php"><img src="../images/admins.png" alt="" /><span>Users</span></a></li>
 <li><a href="gmaps" target="_blank"><img src="../images/gmaps.png" alt="" /><span>Google Map Tool</span></a></li>
 <li><a href="export_view.php"><img src="../images/excel.jpg" alt="" /><span>Export</span></a></li>
-<li><a href=""><img src="../images/backup.png" alt="" /><span>Backup</span></a></li>
+<li><a href="backup.php"><img src="../images/backup.png" alt="" /><span>Backup</span></a></li>
 <li><a href="controls.php"><img src="../images/control.png" alt="" /><span>Controls</span></a></li>
 <li><a href="logfile.php"><img src="../images/log.png" alt="" /><span>View Log</span></a></li>
 <li><a href="logout.php"><img src="../images/logout.png" alt="" /><span>Logout</span></a></li>
