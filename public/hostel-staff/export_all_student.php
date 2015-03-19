@@ -29,6 +29,14 @@ for($i = 0; $i<$num_fields; ++$i)
     $header .= mysql_field_name($result, $i)."\t";
 }
 
+$sql = "SELECT * FROM parent_details";
+$result = mysql_query($sql) or die(mysql_error());
+$num_fields = mysql_num_fields($result);
+for($i = 0; $i<$num_fields; ++$i)
+{
+    $header .= mysql_field_name($result, $i)."\t";
+}
+
 $sql = "SELECT * FROM present_address";
 $result = mysql_query($sql) or die(mysql_error());
 $num_fields = mysql_num_fields($result);
@@ -54,14 +62,6 @@ for($i = 0; $i<$num_fields; ++$i)
 }
 
 $sql = "SELECT * FROM docu_submission";
-$result = mysql_query($sql) or die(mysql_error());
-$num_fields = mysql_num_fields($result);
-for($i = 0; $i<$num_fields; ++$i)
-{
-    $header .= mysql_field_name($result, $i)."\t";
-}
-
-$sql = "SELECT * FROM parent_details";
 $result = mysql_query($sql) or die(mysql_error());
 $num_fields = mysql_num_fields($result);
 for($i = 0; $i<$num_fields; ++$i)
@@ -100,7 +100,7 @@ for($i = 0; $i<$num_fields; ++$i)
 {
     $header .= mysql_field_name($result, $i)."\t";
 }
-
+*/
 $sql = "SELECT * FROM remarks";
 $result = mysql_query($sql) or die(mysql_error());
 $num_fields = mysql_num_fields($result);
@@ -108,7 +108,7 @@ for($i = 0; $i<$num_fields; ++$i)
 {
     $header .= mysql_field_name($result, $i)."\t";
 }
-*/
+
 echo $header;
 
 echo "\n";
@@ -134,13 +134,6 @@ while($row = mysql_fetch_row($rec))
     $str .= str_replace("@%", "\t", $comma_separated);
     $str .= "\t";
     
-    $query2 = "SELECT * FROM bank_details WHERE student_id='$id'";
-    $result1 = mysql_query($query2) or die(mysql_error());
-    $row=mysql_fetch_row($result1);
-    $comma_separated = implode("@%", $row);
-    $comma_separated = trim($comma_separated);
-    $str .= str_replace("@%", "\t", $comma_separated);
-    $str .= "\t";
     /*
     $query2 = "SELECT * FROM available_room WHERE student_id='$id'";
     $result1 = mysql_query($query2) or die(mysql_error());
@@ -190,7 +183,23 @@ while($row = mysql_fetch_row($rec))
     $comma_separated = trim($comma_separated);
     $str .= str_replace("@%", "\t", $comma_separated);
     $str .= "\t";
-    
+
+    $query2 = "SELECT * FROM last_yr_details WHERE student_id='$id'";
+    $result1 = mysql_query($query2) or die(mysql_error());
+    $row=mysql_fetch_row($result1);
+    $comma_separated = implode("@%", $row);
+    $comma_separated = trim($comma_separated);
+    $str .= str_replace("@%", "\t", $comma_separated);
+    $str .= "\t";
+
+    $query2 = "SELECT * FROM bank_details WHERE student_id='$id'";
+    $result1 = mysql_query($query2) or die(mysql_error());
+    $row=mysql_fetch_row($result1);
+    $comma_separated = implode("@%", $row);
+    $comma_separated = trim($comma_separated);
+    $str .= str_replace("@%", "\t", $comma_separated);
+    $str .= "\t";
+
     $query2 = "SELECT * FROM local_guardian WHERE student_id='$id'";
     $result1 = mysql_query($query2) or die(mysql_error());
     $row=mysql_fetch_row($result1);
@@ -198,7 +207,7 @@ while($row = mysql_fetch_row($rec))
     $comma_separated = trim($comma_separated);
     $str .= str_replace("@%", "\t", $comma_separated);
     $str .= "\t";
-    /*
+    
     $query2 = "SELECT * FROM remarks WHERE student_id='$id'";
     if($query2){
     $result1 = mysql_query($query2) or die(mysql_error());
@@ -211,7 +220,7 @@ while($row = mysql_fetch_row($rec))
     $comma_separated = trim($comma_separated);
     $str .= str_replace("@%", "\t", $comma_separated);
     $str .= "\t";
-    */
+    
     echo $str."\n";
 }
     
