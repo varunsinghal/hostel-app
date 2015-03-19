@@ -24,9 +24,4 @@ include_layout_template('admin_header.php');
 <li><a href="hostel_list_export_index.php">Export : List of All Rooms and Occupants</a></li>
 </ul>
 <br /><br/>
-<h3 style="color:#668CFF">For Software Backup Purposes</h3><small>These includes option to backup photos and SQL database.</small><hr />
--<ul>
-<li><a href="">Download photos</a></li>
-<li><a href="">Export SQL file</a></li>
-</ul>
 <?php include_layout_template('admin_footer.php'); ?>
