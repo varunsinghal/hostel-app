@@ -215,7 +215,7 @@ if(isset($_POST['submit'])){
 	}
 	$filename = "html".DS.time().$student->student_id.".html";
 	file_put_contents("mpdf".DS.$filename, $html);
-	redirect_to('get_register.php?input_file=mpdf'.DS.$filename);
+	redirect_to('get_pdf.php?input_file=mpdf'.DS.$filename);
     	
     $message = "";
   } else {
