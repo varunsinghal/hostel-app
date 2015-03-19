@@ -13,6 +13,7 @@ ob_start();
 <form action="export_hostel_list.php" method="get" name="main">
        Hostel Name :
        <select name="hostel_name">
+         <option value="all">All</option>
        <?php
        
        $query2 = "SELECT DISTINCT hostel FROM available_room";
@@ -23,7 +24,7 @@ ob_start();
        }
        
        ?>
-	   <option value="all">All</option>
+	   
        <input type="submit" value="Export" />
 </form>
 
