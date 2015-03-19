@@ -7,7 +7,10 @@ exit;
 $html = file_get_contents($_GET['input_file']);
 	include("mpdf/mpdf.php");
 	$mpdf=new mPDF('en-GB-x','A4','','',5,5,10,10,6,3);
-	$mpdf->SetTitle('Registration Form'); 
+	$mpdf->SetTitle('DWD-DTU');
+        $mpdf->SetAuthor('DWD');
+        $mpdf->SetCreator('hostels.dce.edu');
+        $mpdf->SetKeywords('form');
 	$mpdf->SetDisplayMode('fullpage');
 
 	$mpdf->list_indent_first_level = 0;	// 1 or 0 - whether to indent the first level of a list
@@ -19,7 +22,6 @@ $html = file_get_contents($_GET['input_file']);
 	$mpdf->WriteHTML($html);
 	
 	$mpdf->Output('dwd-dtu.pdf','I');
-	$mpdf->Output();
 	
 	exit;
 }
