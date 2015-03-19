@@ -21,7 +21,7 @@ include_layout_template('admin_header.php');
 <li><a href="export_verified_student.php">Export : List of All Verified Students</a></li>
 <li><a href="export_alloted_student.php">Export : List of All Alloted Students</a></li>
 <li><a href="export_docu_submission.php">Export : List of all Students whose Documents have been Verified</a></li>
-<li><a href="#">Export : List of All Rooms and Occupants</a></li>
+<li><a href="hostel_list_export_index.php">Export : List of All Rooms and Occupants</a></li>
 </ul>
 <br /><br/>
 <?php include_layout_template('admin_footer.php'); ?>
