@@ -1,10 +1,5 @@
 <html>
 <head>
-<style>
-body{
-font-family: Calibri, Verdana, sans-serif;
-}
-</style>
 </head>
 <body>
 <p>To</p>
