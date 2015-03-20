@@ -137,6 +137,7 @@ if(isset($_POST['submit'])){
   $student->distance              = '0';
   $student->document              = '0';
   $student->last_room             = 'NIL';
+  $date                           = date('d-m-Y', time());
   if($student->save()){
   //make form no
          $form_no = $student->year_of_admn;
@@ -152,6 +153,7 @@ if(isset($_POST['submit'])){
   //form no ends
     	$attribute = array (
   '{form_no}'=>$form_no,
+  '{date}'=>$date,
   '{name}'=>$_POST['name'],
   '{gender}'=>$_POST['gender'],
   '{personal_phone}'=>$_POST['personal_phone'],
