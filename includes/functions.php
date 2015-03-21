@@ -120,7 +120,7 @@ function access_check($user_level="", $page_name="")  // it will return false if
 //function for backup of full db if $tables is empty else mention tables to be backedup with comma
 function backup_tables($tables = '*')
 {
-	
+	$return = "-- Backup file\n\n";
 	//get all of the tables
 	if($tables == '*')
 	{
@@ -142,10 +142,10 @@ function backup_tables($tables = '*')
 		$result = mysql_query('SELECT * FROM '.$table);
 		$num_fields = mysql_num_fields($result);
 		
-		$return.= 'DROP TABLE '.$table.';';
+		$return.= "-- ----------------------------------------------------\n--\n-- Table structure for table ".$table."\n--\n";
 		$row2 = mysql_fetch_row(mysql_query('SHOW CREATE TABLE '.$table));
 		$return.= "\n\n".$row2[1].";\n\n";
-		
+		$return .= "--\n-- Dumping data for table ".$table."\n--\n\n";
 		for ($i = 0; $i < $num_fields; $i++) 
 		{
 			while($row = mysql_fetch_row($result))
