@@ -33,9 +33,7 @@ if(isset($_POST['submit'])){
 Current file - <?php echo $form; ?>
 <?php $old_html = file_get_contents($form); ?>
 <form method="post" action="">
-	<textarea style="width: 100%; height: 100%;" name="new_html">
-		<?php echo $old_html; ?>
-	</textarea>
+	<textarea style="width: 100%; height: 100%;" name="new_html"><?php echo $old_html; ?></textarea>
 <br><br>
 <input type="submit" value="Update File" name="submit">
 </form>
