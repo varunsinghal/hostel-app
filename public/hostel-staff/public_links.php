@@ -12,8 +12,20 @@ include_layout_template('admin_header.php');
 <br />
 These links can be accessed by general public and their visiblity can be controlled by admin -
 <ul>
-<li><a href="../reallot.php" target="_blank">Re-allotment form</a></li>
-<li><a href="../register.php">Registration form</a></li>
+<li>Re-allotment form:<br>
+<a href="../reallot.php" target="_blank">Visit Form</a> | 
+<a href="../preview.php?form=layouts/reallot.inc.php" target="_blank">Preview Form</a> |
+<a href="../terms1.php" target="_blank">Preview Terms</a> |
+<a href="../reallot.php" target="_blank">Edit Terms</a> | 
+<a href="../reallot.php" target="_blank">Edit Form</a>
+</li>
+<li>Registration form:<br>
+<a href="../register.php" target="_blank">Visit Form</a> | 
+<a href="../preview.php?form=layouts/register.inc.php" target="_blank">Preview Form</a> |
+<a href="../terms.php" target="_blank">Preview Terms</a> |
+<a href="../reallot.php" target="_blank">Edit Terms</a> | 
+<a href="../reallot.php" target="_blank">Edit Form</a>
+</li>
 <li><a href="../surrender.php">Surrender form</a></li>
 <li><a href="../feedback.php">Feedback form</a></li>
 <li><a href="../checkstatus.php" target="_blank">Allotment Status</a></li>
