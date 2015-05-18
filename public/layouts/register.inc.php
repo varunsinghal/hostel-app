@@ -8,11 +8,11 @@
 
 <title>Registration Form</title>
 
-<link rel="stylesheet" href="../stylesheets2/reset.css" />
+<link rel="stylesheet" href="stylesheets2/reset.css" />
 
-<link rel="stylesheet" href="../stylesheets2/text.css" />
+<link rel="stylesheet" href="stylesheets2/text.css" />
 
-<link rel="stylesheet" href="../stylesheets2/960.css" />
+<link rel="stylesheet" href="stylesheets2/960.css" />
 
 <style>
 
@@ -61,16 +61,14 @@ border-bottom: 1px solid black;
 <small>SHAHBAD, BAWANA ROAD, DELHI, PH - 27852204</small>
 
 </div>
-
+<div class="clear"><br>&ensp;<br></div>
 </div>
 
 <div class="container_12">
 
 <div class="grid_6">
 
-<br/><br/>
-
-<h3 align="center">Form No: {form_no} <br/> {course} </h3>
+<h3 align="center">Form No: {form_no} <br/>Course: {course} </h3>
 
 </div>
 
