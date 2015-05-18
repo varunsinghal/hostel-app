@@ -1,5 +1,8 @@
 <html>
 <head>
+<link rel="stylesheet" href="stylesheets2/reset.css" />
+<link rel="stylesheet" href="stylesheets2/text.css" />
+<link rel="stylesheet" href="stylesheets2/960.css" />
 </head>
 <body>
 <p>To</p>
