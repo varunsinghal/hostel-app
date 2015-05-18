@@ -26,7 +26,11 @@ These links can be accessed by general public and their visiblity can be control
 <a href="../reallot.php" target="_blank">Edit Terms</a> | 
 <a href="../reallot.php" target="_blank">Edit Form</a>
 </li>
-<li><a href="../surrender.php">Surrender form</a></li>
+<li>Surrender form:<br>
+<a href="../surrender.php" target="_blank">Visit Form</a> | 
+<a href="../preview.php?form=layouts/surrender.inc.php" target="_blank">Preview Form</a> |
+<a href="../reallot.php" target="_blank">Edit Form</a>
+</li>
 <li><a href="../feedback.php">Feedback form</a></li>
 <li><a href="../checkstatus.php" target="_blank">Allotment Status</a></li>
 </ul>
