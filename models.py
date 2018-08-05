@@ -1,0 +1,2 @@
+# hostel-app/models.py
+
