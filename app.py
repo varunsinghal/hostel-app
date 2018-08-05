@@ -1,4 +1,4 @@
-from flask import Flask, url_for
+from flask import Flask, url_for, session, request
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import redirect
 
@@ -10,7 +10,13 @@ db = SQLAlchemy(app)
 
 @app.route("/")
 def app_index():
-    return redirect(url_for('public.index'))
+    return redirect(url_for('home.index'))
+
+
+@app.before_request
+def before_request():
+    if 'username' not in session and not request.endpoint.startswith('public'):
+        return redirect(url_for('public.index'))
 
 
 if __name__ == '__main__':

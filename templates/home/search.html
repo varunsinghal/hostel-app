@@ -1,0 +1,113 @@
+{# _hostel-app/templates/home/search.html_ #}
+
+{% extends "layout.html" %}
+{% block body %}
+
+<script type='text/javascript' src="{{ url_for('static', filename='js/side_functions.js') }}">
+</script>
+<center><h2 style="color:#ccc">Search</h2></center>
+<br/>
+
+<form action="{{ url_for('home.search') }}" method="get" name="main">
+
+    Search By:<br><br>
+
+    <select name="column_name">
+        <option value="" disabled selected>Select Domain</option>
+        {% for column in columns %}
+        <option value="{{ column.name }}">{{ column.name|replace('_', ' ')|title }}</option>
+        {% endfor %}
+    </select>
+    &nbsp;&nbsp;&nbsp;
+    Enter Query: <input type="text" name="query"/>
+    &nbsp;&nbsp;&nbsp;
+    <input type="checkbox" name="allotted"/>&nbsp;&nbsp;Search only among allotted students
+    &nbsp;&nbsp;&nbsp;
+    <input type="submit" value="Search"/>
+</form>
+
+<br/>
+{% if request.args %}
+<table width=100% style="background-color: #CCFFD9;border: solid;border-width: 1px;">
+    <tr>
+        <td style="padding: 10px;">
+            <p>
+                <b><span style="color:#CC0000;">Search Results</span></b><br/>
+                Query: {{ request.args.get('column_name') }} = {{ request.args.get('query') }}<br/>
+                Allotted: {{ request.args.get('allotted')|default('NA', true) }}<br/>
+                Total Search Result : {{ students|length }}
+            </p>
+        </td>
+    </tr>
+</table><br/><br/>
+
+<table width=100%>
+    <tr>
+        <th>Form No.</th>
+        <th>Academics</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Present Address</th>
+        <th>Distance</th>
+        <th>Category</th>
+        <th>Verified</th>
+        <th>Room No</th>
+        <th>Actions</th>
+    </tr>
+    {% for student in students %}
+    <tr>
+        <td colspan=10>
+            <hr/>
+        </td>
+    </tr>
+    <tr id="{{ student.id }}">
+        <td>{{ student.id }}</td>
+        <td>{{ student.year_of_admn }}, {{ student.semester }} Sem, {{ student.branch }}, {{ student.course }}
+        </td>
+        <td>{{ student.name }}</td>
+        <td>{{ student.reallot }}&ensp;</td>
+        <td>{{ student.present_address }},&nbsp;{{ student.present_city }}</td>
+        <td>{{ student.distance }}&nbsp;Km</td>
+        <td>{{ student.category_code }}, {{ student.gender }}</td>
+        <td>{% if student.document == 1 %}
+            <img src="{{ url_for('static', filename='img/accept.png') }}" alt="verified" name="verified"/>
+            {% else %}
+            <img src="{{ url_for('static', filename='img/exclamation.png') }}" alt="not verified" name="not verified"/>
+            {% endif %}
+        </td>
+        <td>{% if student.room_id %}
+            <font color="green"><b>{{ student.current_room.hostel }}, {{ student.current_room.room_no}}</b></font>
+            {% else %}
+            <font color="red"><b>Nil</b></font>
+            {% endif %}
+        </td>
+        <td>
+            <a href="edit_student_info.php?id='.$row['student_id'].'">Edit Details</a> |
+            <a href="javascript:void(0);" onClick="addRemark('.$row['student_id'].')">Add Remark</a>
+            <br/>
+            <a href="javascript:void(0);" onClick="getAlotData('.$row['student_id'].');">Allot</a> |
+            <a href="javascript:void(0);" onClick="delAllotment('.$row['student_id'].');">Cancel Allotment</a>
+            <br/>
+            <a href="view.php?page='. $row['student_id'].'" target="_blank"
+               onclick="return popitup(&#39;view.php?page='. $row['student_id'].'&#39;)">View Full Details</a> |
+            <a href="javascript:void(0)" onClick="delStudent('.$row['student_id'].');">Delete</a>
+        </td>
+    </tr>
+    {% if student.remark %}
+    <tr>
+        <td colspan=10 id="{{ student.id }}a">
+            <font color="brown">
+                <img src="{{ url_for('static', filename='img/information.png') }}" style="vertical-align: middle;"/>&nbsp;
+                Remark : <span id="">{{ student.remark }}</span>
+            </font>
+        </td>
+    </tr>
+    {% endif %}
+    <tr>
+        <td colspan=10 id="'.$row['student_id'].'b"></td>
+    </tr>
+    {% endfor %}
+</table> <br/>
+{% endif %}
+
+{% endblock %}

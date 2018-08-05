@@ -1,5 +1,182 @@
-<!DOCTYPE html>
-<html>
+{# _hostel-app/templates/home/index.html_ #}
 
-Home/index {{session.username}}
-</html>
+{% extends "layout.html" %}
+{% block body %}
+
+<style type="text/css">
+#content ul {
+float: left;
+display: inline-block;
+margin-bottom: 20px;
+list-style-type: none;
+}
+
+#content ul li {
+float: left;
+display: inline;
+margin: 0 15px 15px 0;
+}
+
+#content ul li a {
+display: block;
+width: 106px;
+height: 102px;
+text-decoration: none;
+color: #555;
+background: url({{ url_for('static', filename='img/largebut.png') }}) 0 0 no-repeat;
+}
+
+#content ul li a:hover {
+background: url({{ url_for('static', filename='img/largebut_hover.png') }}) 0 0 no-repeat;
+}
+
+
+#content ul li a img {
+display: inline;
+width: 48px;
+margin-left: 29px;
+margin-top: 15px;
+}
+
+#content ul li a span {
+display: block;
+width: 100%;
+text-align: center;
+margin-top: 10px;
+font-size: 11px;
+}
+
+#content img {
+border: 0;
+}
+
+</style>
+
+<h2>Welcome {{ session.username }},</h2>
+<hr/>
+<br/>
+Actions -<br/><br/>
+
+<div id="content" style="display:inline-block;">
+    <ul>
+        <li>
+            <a href="allotedrooms.php">
+                <img src="{{ url_for('static', filename='img/alloted-rooms.png') }}" alt=""/>
+                <span>Alloted Rooms</span>
+            </a>
+        </li>
+        <li>
+            <a href="verify_student.php">
+                <img src="{{ url_for('static', filename='img/verify-docu_icon.png') }}" alt=""/>
+                <span>Verify<br/>Documents</span>
+            </a>
+        </li>
+        <li>
+            <a href="distance_calculator_index.php">
+                <img src="{{ url_for('static', filename='img/calcu-dist.png') }}" alt=""/>
+                <span>Calculate<br/>Distance</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_for('home.search') }}">
+                <img src="{{ url_for('static', filename='img/search.png') }}" alt=""/>
+                <span>Search</span>
+            </a>
+        </li>
+        <li>
+            <a href="verified_application_index.php">
+                <img src="{{ url_for('static', filename='img/verified_ico.png') }}" alt=""/>
+                <span>Verified Applications</span>
+            </a>
+        </li>
+        <li>
+            <a href="all_filtered_view.php">
+                <img src="{{ url_for('static', filename='img/recieved_application.png') }}" alt=""/>
+                <span>Recieved Applications</span>
+            </a>
+        </li>
+        <li>
+            <a href="status.php">
+                <img src="{{ url_for('static', filename='img/stats.png') }}" alt=""/>
+                <span>Status</span>
+            </a>
+        </li>
+        <li>
+            <a href="hostel_room_management.php">
+                <img src="{{ url_for('static', filename='img/manage-hostel.png') }}" alt=""/>
+                <span>Manage Rooms</span>
+            </a>
+        </li>
+        <li>
+            <a href="viewfeedback.php">
+                <img src="{{ url_for('static', filename='img/terms.jpg') }}" alt=""/>
+                <span>Feedback System</span>
+            </a>
+        </li>
+        <li>
+            <a href="search.php?table_name=remarks&column_name=remarks&query=surrender">
+                <img src="{{ url_for('static', filename='img/surrender.jpg') }}" alt=""/>
+                <span>Surrendered Rooms</span>
+            </a>
+        </li>
+        <li>
+            <a href="public_links.php">
+                <img src="{{ url_for('static', filename='img/public-links.png') }}" alt=""/>
+                <span>Public Links</span>
+            </a>
+        </li>
+        <li>
+            <a href="viewuser.php">
+                <img src="{{ url_for('static', filename='img/admins.png') }}" alt=""/>
+                <span>Users</span>
+            </a>
+        </li>
+        <li>
+            <a href="gmaps" target="_blank">
+                <img src="{{ url_for('static', filename='img/gmaps.png') }}" alt=""/>
+                <span>Google Map Tool</span>
+            </a>
+        </li>
+        <li>
+            <a href="export_view.php">
+                <img src="{{ url_for('static', filename='img/backup.png') }}" alt=""/>
+                <span>Export & Backup</span>
+            </a>
+        </li>
+        <li>
+            <a href="controls.php">
+                <img src="{{ url_for('static', filename='img/control.png') }}" alt=""/>
+                <span>Controls</span>
+            </a>
+        </li>
+        <li>
+            <a href="logfile.php">
+                <img src="{{ url_for('static', filename='img/log.png') }}" alt=""/>
+                <span>View Log</span>
+            </a>
+        </li>
+        <li>
+            <a href="{{ url_for('public.logout') }}">
+                <img src="{{ url_for('static', filename='img/logout.png') }}" alt=""/>
+                <span>Logout</span>
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<hr/>
+<h3>Info</h3><br/>
+Registrations :
+
+<br/>
+Re-Allotment :
+
+<br/>
+Allotment Status :<span style="color:green;">LIVE</span><span style="color:red;">CLOSED</span>
+
+
+<br/>
+Total Recieved Application :<span style="color:blue;"><strong></strong></span>
+
+{% endblock %}

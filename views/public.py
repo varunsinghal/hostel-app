@@ -29,5 +29,6 @@ def authenticate():
 
 @public.route('/logout')
 def logout():
-    session.pop(session['username'])
+    session.pop('username')
     return redirect(url_for('public.index'))
+
