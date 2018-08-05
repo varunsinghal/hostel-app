@@ -24,6 +24,7 @@ class Room(db.Model):
     hostel = Column(String(80), nullable=False)
     room_no = Column(String(80), nullable=False)
     capacity = Column(Integer, default=0)
+    gender = Column(String(25))
 
 
 class Student(db.Model):
@@ -103,6 +104,10 @@ class Student(db.Model):
     lg_occupation = Column(String(80))
     lg_office = Column(String(80))
     lg_office_phone = Column(String(80))
+
+    # remark
+    remark = Column(String(80))
+    remark_datetime = Column(String(80))
 
     # variables
     form_no = Column(String(25))

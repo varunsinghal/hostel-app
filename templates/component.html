@@ -1,0 +1,91 @@
+{# _hostel-app/templates/component.html_ #}
+
+{% macro student_data_table(students, search_query='') -%}
+<table width=100% style="background-color: #CCFFD9;border: solid;border-width: 1px;">
+    <tr>
+        <td style="padding: 10px;">
+            <p>
+                <b><span style="color:#CC0000;">Search Results</span></b><br/>
+                Query: {{ search_query|safe}} <br/>
+                Total Search Result : {{ students|length }}
+            </p>
+        </td>
+    </tr>
+</table><br/><br/>
+
+<table width=100%>
+    <tr>
+        <th>Form No.</th>
+        <th>Academics</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Present Address</th>
+        <th>Distance</th>
+        <th>Category</th>
+        <th>Verified</th>
+        <th>Room No</th>
+        <th>Actions</th>
+    </tr>
+    {% for student in students %}
+    <tr>
+        <td colspan=10>
+            <hr/>
+        </td>
+    </tr>
+    <tr id="{{ student.id }}">
+        <td>{{ student.form_no }}</td>
+        <td>{{ student.year_of_admn }}, {{ student.semester }} Sem, {{ student.branch }}, {{ student.course }}
+        </td>
+        <td>{{ student.name }}</td>
+        <td>
+            {% if student.reallot == 1 %}&ensp;
+            <img height="20" src="{{ url_for('static', filename='img/reallot.png') }}">
+            {% else if student.reallot == 0 %}
+            <img height="20" src="{{ url_for('static', filename='img/fresh.png') }}">
+            {% endif %}
+        </td>
+        <td>{{ student.present_address }},&nbsp;{{ student.present_city }}</td>
+        <td>{{ student.distance }}&nbsp;Km</td>
+        <td>{{ student.category_code }}, {{ student.gender }}</td>
+        <td>{% if student.document == 1 %}
+            <img src="{{ url_for('static', filename='img/accept.png') }}" alt="verified" name="verified"/>
+            {% else %}
+            <img src="{{ url_for('static', filename='img/exclamation.png') }}" alt="not verified" name="not verified"/>
+            {% endif %}
+        </td>
+        <td>{% if student.room_id %}
+            <font color="green"><b>{{ student.current_room.hostel }}, {{ student.current_room.room_no}}</b></font>
+            {% else %}
+            <font color="red"><b>Nil</b></font>
+            {% endif %}
+        </td>
+        <td>
+            <a href="edit_student_info.php?id={{ student.id }}">Edit Details</a> |
+            <a href="javascript:void(0);" onClick="addRemark({{ student.id }})">Add Remark</a>
+            <br/>
+            <a href="javascript:void(0);" onClick="getAlotData({{ student.id }});">Allot</a> |
+            <a href="javascript:void(0);" onClick="delAllotment({{ student.id }});">Cancel Allotment</a>
+            <br/>
+            <a href="view.php?page={{ student.id }}" target="_blank"
+               onclick="return popitup(&#39;view.php?page={{ student.id }}&#39;)">View Full Details</a> |
+            <a href="javascript:void(0)" onClick="delStudent({{ student.id }});">Delete</a>
+        </td>
+    </tr>
+    <tr>
+        <td colspan=10 id="{{ student.id }}a">
+            {% if student.remark %}
+            <font color="brown">
+                <img src="{{ url_for('static', filename='img/information.png') }}" style="vertical-align: middle;"/>&nbsp;
+                Remark : <span id="">{{ student.remark }}</span>
+            </font>
+            {% endif %}
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan=10 id="{{ student.id }}b"></td>
+    </tr>
+    {% endfor %}
+</table> <br/>
+{%- endmacro %}
+
