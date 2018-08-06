@@ -39,3 +39,9 @@ def controls():
         db.session.commit()
     context = {'controls': Control.query.all()}
     return render_template('home/controls.html', **context)
+
+
+@home.route('/public_links')
+def public_links():
+    context = {'controls': Control.query.all()}
+    return render_template('home/public_links.html', **context)
