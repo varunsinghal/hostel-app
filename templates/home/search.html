@@ -2,9 +2,6 @@
 
 {% extends "layout.html" %}
 {% block body %}
-
-<script type='text/javascript' src="{{ url_for('static', filename='js/side_functions.js') }}">
-</script>
 <center><h2 style="color:#ccc">Search</h2></center>
 <br/>
 
@@ -28,7 +25,6 @@
 
 <br/>
 {% if request.args %}
-
 {{
 component.student_data_table(students,
     request.args.get('column_name')|default('', true) + ' = ' + request.args.get('query') +

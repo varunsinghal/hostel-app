@@ -1,0 +1,49 @@
+{# _hostel-app/templates/user/add.html_ #}
+
+{% extends "layout.html" %}
+{% block body %}
+<center><a href="{{ url_for('user.index') }}">&laquo; Back</a></center>
+<h2>New User</h2>
+<br/>
+{{ message|default('', true)|safe }}
+<form action="{{ url_for('user.add') }}" method="post">
+    <table>
+        <tr>
+            <td>Username:</td>
+            <td>
+                <input type="text" name="username" maxlength="30" value="" required/>
+            </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td>
+                <input type="password" name="password" maxlength="30" value="" required/>
+            </td>
+        </tr>
+        <!--<tr>-->
+        <!--<td>Name:</td>-->
+        <!--<td>-->
+        <!--<input type="text" name="name" maxlength="30" value="" />-->
+        <!--</td>-->
+        <!--</tr>-->
+        <tr>
+            <td>Email:</td>
+            <td>
+                <input type="text" name="email" maxlength="30" value="" required/>
+            </td>
+        </tr>
+        <!--<tr>-->
+        <!--<td>User Level:</td>-->
+        <!--<td>-->
+        <!--<select name="level"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select>-->
+        <!--</td>-->
+        <!--</tr>-->
+        <tr>
+            <td colspan="2">
+                <input type="submit" name="submit" value="Create"/>
+            </td>
+        </tr>
+    </table>
+</form>
+
+{% endblock %}

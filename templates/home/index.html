@@ -120,13 +120,13 @@ Actions -<br/><br/>
             </a>
         </li>
         <li>
-            <a href="public_links.php">
+            <a href="{{ url_for('home.public_links') }}">
                 <img src="{{ url_for('static', filename='img/public-links.png') }}" alt=""/>
                 <span>Public Links</span>
             </a>
         </li>
         <li>
-            <a href="viewuser.php">
+            <a href="{{ url_for('user.index') }}">
                 <img src="{{ url_for('static', filename='img/admins.png') }}" alt=""/>
                 <span>Users</span>
             </a>

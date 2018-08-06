@@ -22,7 +22,9 @@ def before_request():
 if __name__ == '__main__':
     from views.home import home
     from views.public import public
+    from views.user import user
 
     app.register_blueprint(public, url_prefix='/public')
     app.register_blueprint(home, url_prefix='/home')
+    app.register_blueprint(user, url_prefix='/user')
     app.run()

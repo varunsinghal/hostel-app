@@ -15,6 +15,11 @@ class User(db.Model):
     email = Column(String(120), unique=True, nullable=False)
     password = Column(String(120))
 
+    def __init__(self, username, email, password, *args, **kwargs):
+        self.username = username
+        self.email = email
+        self.password = password
+
     def __repr__(self):
         return '<User %r>' % self.username
 

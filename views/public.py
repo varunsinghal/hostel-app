@@ -32,3 +32,17 @@ def logout():
     session.pop('username')
     return redirect(url_for('public.index'))
 
+
+@public.route('/registration')
+def registration():
+    return render_template('public/registration.html')
+
+
+@public.route('/reallotment')
+def reallotment():
+    return render_template('public/reallotment.html')
+
+
+@public.route('/surrender')
+def surrender():
+    return render_template('public/surrender.html')

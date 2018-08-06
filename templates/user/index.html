@@ -1,0 +1,33 @@
+{# _hostel-app/templates/user/index.html_ #}
+
+{% extends "layout.html" %}
+{% block body %}
+<h2>Users</h2>
+<br/>
+{{ request.args.get('message')|default('', true)|safe }}
+<br/>
+<br/>
+<a href="{{ url_for('user.add') }}">Create New User</a>
+<br/><br/>
+<table border='1px' cellpadding='10px' cellspacing='10px'>
+    <tr>
+        <th>Id</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Action</th>
+    </tr>
+    {% for user in users %}
+    <tr>
+        <td>{{ user.id }}</td>
+        <td>{{ user.username }}</td>
+        <td>{{ user.email }}</td>
+        <td>
+            <a href="{{ url_for('user.update', id=user.id) }}">update</a> |
+            <a href="{{ url_for('user.delete', id=user.id) }}">delete</a>
+        </td>
+
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
