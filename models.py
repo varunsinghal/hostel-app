@@ -117,3 +117,12 @@ class Student(db.Model):
 
     def __repr__(self):
         return '<Student %r - %r>' % (self.id, self.name)
+
+
+class Control(db.Model):
+    id = Column(Integer, Sequence('user_id_seq'), primary_key=True)
+    name = Column(String(80), unique=True, nullable=False)
+    flag = Column(Integer, default=0)
+
+    def __repr__(self):
+        return '<Control %r - %r>' % (self.name, self.flag)

@@ -144,7 +144,7 @@ Actions -<br/><br/>
             </a>
         </li>
         <li>
-            <a href="controls.php">
+            <a href="{{ url_for('home.controls') }}">
                 <img src="{{ url_for('static', filename='img/control.png') }}" alt=""/>
                 <span>Controls</span>
             </a>
@@ -166,12 +166,12 @@ Actions -<br/><br/>
 </div>
 
 <hr/>
-<h3>Info</h3><br/>
-Registrations :
-
+<h3>Info</h3>
+{% for control in controls %}
+{{ control.name }} :
+{% if control.flag == 0 %} <span style="color:red;">CLOSED</span> {% else %} <span style="color:green;">LIVE</span> {% endif %}
 <br/>
-Re-Allotment :<span style="color:green;">LIVE</span><span style="color:red;">CLOSED</span>
-
+{% endfor %}
 <br/>
 Total Recieved Application : <span style="color:blue;"><strong>{{ total_applications }}</strong></span>
 

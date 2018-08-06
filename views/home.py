@@ -2,14 +2,16 @@
 
 from flask import Blueprint, render_template, request
 
-from models import Student
+from app import db
+from models import Student, Control
 
 home = Blueprint('home', __name__)
 
 
 @home.route('/')
 def index():
-    context = {'total_applications': Student.query.count()}
+    context = {'total_applications': Student.query.count(),
+               'controls': Control.query.all()}
     return render_template('home/index.html', **context)
 
 
@@ -26,3 +28,14 @@ def search():
         else:
             context['students'] = Student.query.filter(getattr(Student, column_name).like(query)).all()
     return render_template('home/search.html', **context)
+
+
+@home.route("/controls", methods=['GET', 'POST'])
+def controls():
+    control_name = request.form.get('control_name', default=None)
+    if control_name:
+        control = Control.query.filter(Control.name == control_name).first()
+        control.flag = request.form.get('status')
+        db.session.commit()
+    context = {'controls': Control.query.all()}
+    return render_template('home/controls.html', **context)

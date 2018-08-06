@@ -1,0 +1,84 @@
+{# _hostel-app/templates/home/controls.html_ #}
+
+{% extends "layout.html" %}
+{% block body %}
+
+
+<script type="text/javascript">
+function change(controlName, statusFlag)
+       {
+	      var r=confirm("Are you sure you want to change the " + controlName + " status?");
+	      if(r==true){
+	      console.log(controlName);
+	      console.log(statusFlag);
+		     document.getElementById(controlName + '_status').innerHTML="<img src='{{ url_for('static', filename='img/ajax-loader_b.gif') }} height=15 />";
+		     if (window.XMLHttpRequest)
+		     {// code for IE7+, Firefox, Chrome, Opera, Safari
+			    xmlhttp=new XMLHttpRequest();
+		     }
+		     else
+		     {// code for IE6, IE5
+			    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		     }
+		     xmlhttp.onreadystatechange=function()
+		     {
+			    if (xmlhttp.readyState==4 && xmlhttp.status==200)
+			    {
+				   window.location.reload();
+			    }
+		     }
+		     xmlhttp.open("POST","{{ url_for('home.controls') }}",true);
+		     xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		     xmlhttp.send('control_name=' + controlName + '&status=' + statusFlag);
+	      }
+       }
+
+</script>
+
+
+<center>
+    <h2 style="color:#ccc">Admin Controls</h2>
+</center>
+<br/><br/>
+
+{% for control in controls %}
+<h3 style="color: #0A85FF">{{ control.name }}</h3>
+
+<div id="{{ control.name }}_status">
+    {% if control.flag == 1 %}
+    <span style="color:green;">LIVE</span>
+    {% else %}
+    <span style="color:red;">CLOSED</span>
+    {% endif %}
+    <hr/>
+    <a href="javascript:void(0);" onClick="change('{{control.name}}', 1);">
+        <img src="{{ url_for('static', filename='img/start.gif') }}" width="50px"/>
+    </a>
+    &nbsp;&nbsp;
+    <a href="javascript:void(0);" onClick="change('{{control.name}}', 0);">
+        <img src="{{ url_for('static', filename='img/stop.gif') }}" width="50px"/>
+    </a>
+
+    <hr/>
+    <br/><br/>
+    <hr/>
+</div>
+
+
+{% endfor %}
+
+
+<!--<h3 style="color: #0A85FF">Maintenance</h3>-->
+<!--<small>If you come across any error or discrepancy please click on service button</small><hr />-->
+<!--<a href="service.php"><button style="color:#CCC; background: #400080; width:100px; height: 40px;">Service</button></a>-->
+<!--&ensp;-->
+<!--<a href="service_surrender.php"><button style="color:#CCC; background: #400080; width:100px; height: 40px;">Surrender</button></a>-->
+<!--&ensp;-->
+<!--<hr />-->
+
+<!--<h3 style="color: #0A85FF">Flush Database</h3>-->
+<!--<small>To flush unverified junk applications from database which were not accepted by the office</small><hr />-->
+<!--<a href="flush.php"><button style="color:#CCC; background: #400080; width:100px; height: 40px;">Flush</button></a>-->
+
+
+{% endblock %}
