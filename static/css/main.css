@@ -115,3 +115,12 @@ table.bodered tr th, table.bodered tr td
 {
 	border: 1px solid #000000;
 }
+
+.fa{
+    color: #666;
+}
+
+td{
+    padding: 5px;
+    max-width: 200px;
+}
