@@ -31,7 +31,7 @@
 
 {{
 component.student_data_table(students,
-    request.args.get('column_name') + ' = ' + request.args.get('query') +
+    request.args.get('column_name')|default('', true) + ' = ' + request.args.get('query') +
     '<br/> Allotted: ' + request.args.get('allotted')|default('NA', true))
 }}
 {% endif %}

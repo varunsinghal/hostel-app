@@ -34,13 +34,13 @@
     </tr>
     <tr id="{{ student.id }}">
         <td>{{ student.form_no }}</td>
-        <td>{{ student.year_of_admn }}, {{ student.semester }} Sem, {{ student.branch }}, {{ student.course }}
+        <td>{{ student.year_of_admn }}, {{ student.semester }} Sem, {{ student.branch|safe }}, {{ student.course }}
         </td>
         <td>{{ student.name }}</td>
         <td>
             {% if student.reallot == 1 %}&ensp;
             <img height="20" src="{{ url_for('static', filename='img/reallot.png') }}">
-            {% else if student.reallot == 0 %}
+            {% elif student.reallot == 0 %}
             <img height="20" src="{{ url_for('static', filename='img/fresh.png') }}">
             {% endif %}
         </td>

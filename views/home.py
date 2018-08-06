@@ -9,7 +9,8 @@ home = Blueprint('home', __name__)
 
 @home.route('/')
 def index():
-    return render_template('home/index.html')
+    context = {'total_applications': Student.query.count()}
+    return render_template('home/index.html', **context)
 
 
 @home.route('/search')
@@ -20,7 +21,7 @@ def search():
     alloted = request.args.get('allotted', default=None, type=str)
     if column_name:
         if alloted:
-            context['students'] = Student.query.filter(alloted=1).filter(
+            context['students'] = Student.query.filter(Student.room_id.isnot(None)).filter(
                 getattr(Student, column_name).like(query)).all()
         else:
             context['students'] = Student.query.filter(getattr(Student, column_name).like(query)).all()
