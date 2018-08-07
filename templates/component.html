@@ -4,11 +4,11 @@
 <table width=100% style="background-color: #CCFFD9;border: solid;border-width: 1px;">
     <tr>
         <td style="padding: 10px;">
-            <p>
+
                 <b><span style="color:#CC0000;">Search Results</span></b><br/>
                 Query: {{ search_query|safe}} <br/>
                 Total Search Result : {{ students|length }}
-            </p>
+
         </td>
     </tr>
 </table><br/><br/>
@@ -47,7 +47,7 @@
         <td>{{ student.present_address }},&nbsp;{{ student.present_city }}</td>
         <td>{{ student.distance }}&nbsp;Km</td>
         <td>{{ student.category_code }}, {{ student.gender }}</td>
-        <td>{% if student.document == 1 %}
+        <td id="{{student.id}}_verified">{% if student.document == 1 %}
             <img src="{{ url_for('static', filename='img/accept.png') }}" alt="verified" name="verified"/>
             {% else %}
             <img src="{{ url_for('static', filename='img/exclamation.png') }}" alt="not verified" name="not verified"/>
@@ -60,14 +60,17 @@
             {% endif %}
         </td>
         <td>
-            <a href="edit_student_info.php?id={{ student.id }}">Edit Details</a> |
+            <a href="javascript:void(0);" onClick="verifyStudent({{ student.id }})">Verify</a> |
+            <a href="javascript:void(0);" onClick="unVerifyStudent({{ student.id }})">Un-verify</a>
+            <br/>
+            <a href="{{ url_for('application.edit', id=student.id) }}">Edit Details</a> |
             <a href="javascript:void(0);" onClick="addRemark({{ student.id }})">Add Remark</a>
             <br/>
             <a href="javascript:void(0);" onClick="getAlotData({{ student.id }});">Allot</a> |
             <a href="javascript:void(0);" onClick="delAllotment({{ student.id }});">Cancel Allotment</a>
             <br/>
-            <a href="view.php?page={{ student.id }}" target="_blank"
-               onclick="return popitup(&#39;view.php?page={{ student.id }}&#39;)">View Full Details</a> |
+            <a href="{{ url_for('application.view', id=student.id) }}" target="_blank"
+               onclick="return popitup(&#39;{{ url_for('application.view', id=student.id) }}&#39;)">View Full Details</a> |
             <a href="javascript:void(0)" onClick="delStudent({{ student.id }});">Delete</a>
         </td>
     </tr>
@@ -78,6 +81,7 @@
                 <img src="{{ url_for('static', filename='img/information.png') }}" style="vertical-align: middle;"/>&nbsp;
                 Remark : <span id="">{{ student.remark }}</span>
             </font>
+            <span>(last added : {{ student.remark_datetime }})</span>
             {% endif %}
         </td>
     </tr>

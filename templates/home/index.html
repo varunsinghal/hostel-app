@@ -66,7 +66,7 @@ Actions -<br/><br/>
             </a>
         </li>
         <li>
-            <a href="verify_student.php">
+            <a href="{{ url_for('home.search') }}">
                 <img src="{{ url_for('static', filename='img/verify-docu_icon.png') }}" alt=""/>
                 <span>Verify<br/>Documents</span>
             </a>
@@ -84,13 +84,13 @@ Actions -<br/><br/>
             </a>
         </li>
         <li>
-            <a href="verified_application_index.php">
+            <a href="{{ url_for('application.verified') }}">
                 <img src="{{ url_for('static', filename='img/verified_ico.png') }}" alt=""/>
                 <span>Verified Applications</span>
             </a>
         </li>
         <li>
-            <a href="all_filtered_view.php">
+            <a href="{{ url_for('application.index') }}">
                 <img src="{{ url_for('static', filename='img/recieved_application.png') }}" alt=""/>
                 <span>Recieved Applications</span>
             </a>

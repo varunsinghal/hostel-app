@@ -6,8 +6,6 @@
 <head>
     <title>Admin : Hostels Management System</title>
     <link href="{{ url_for('static', filename='css/main.css') }}" media="all" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" />
-    <script type='text/javascript' src="{{ url_for('static', filename='js/side_functions.js') }}"></script>
     {% import 'component.html' as component %}
 </head>
 <body>
@@ -19,8 +17,8 @@
         <ul>
             <li><a href="{{ url_for('public.logout') }}">Logout</a></li>
             <li><a href="hostel_room_management.php">Manage Rooms</a></li>
-            <li><a href="verified_application_index.php">Verified Applications</a></li>
-            <li><a href="all_filtered_view.php">All Applications</a></li>
+            <li><a href="{{ url_for('application.verified') }}">Verified Applications</a></li>
+            <li><a href="{{ url_for('application.index') }}">All Applications</a></li>
             <li><a href="{{ url_for('home.search') }}">Search</a></li>
             <li><a href="{{ url_for('home.index') }}">Home</a></li>
         </ul>
@@ -29,5 +27,43 @@
     {% block body %} {% endblock %}
 </div>
 <div id="footer">All rights reserved. Copyrights &copy; 2018.</div>
+<script type='text/javascript' src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<script>
+    function verifyStudent(stuid){
+        $.ajax({
+            type: 'POST',
+            url: "{{url_for('application.verify')}}",
+            data: "id=" + stuid,
+            beforeSend: function(){
+                $("#" + stuid + "b").html("<center><img src='{{ url_for('static', filename='img/ajax-loader_b.gif') }}' height=24 /></center>");
+            },
+            success: function(data){
+                $("#" + stuid + "_verified").html("<img src='{{ url_for('static', filename='img/accept.png') }}'/>");
+            },
+            complete: function(){
+                $("#" + stuid + "b").html("");
+            }
+        });
+    }
+
+    function unVerifyStudent(stuid){
+        $.ajax({
+            type: 'POST',
+            url: "{{url_for('application.unverify')}}",
+            data: "id=" + stuid,
+            beforeSend: function(){
+                $("#" + stuid + "b").html("<center><img src='{{ url_for('static', filename='img/ajax-loader_b.gif') }}' height=24 /></center>");
+            },
+            success: function(data){
+                $("#" + stuid + "_verified").html("<img src='{{ url_for('static', filename='img/exclamation.png') }}'/>");
+            },
+            complete: function(){
+                $("#" + stuid + "b").html("");
+            }
+
+        });
+    }
+
+</script>
 </body>
 </html>

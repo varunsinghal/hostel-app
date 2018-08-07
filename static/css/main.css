@@ -120,7 +120,7 @@ table.bodered tr th, table.bodered tr td
     color: #666;
 }
 
-td{
+td, th{
     padding: 5px;
     max-width: 200px;
 }

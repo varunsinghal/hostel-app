@@ -1,6 +1,6 @@
 function showUser(str)
        {
-	      document.getElementById("txtHint").innerHTML="<center><img src='../images/ajax-loader_b.gif' height=24 /></center>";
+	      document.getElementById("txtHint").innerHTML="<center><img src='{{ url_for('static', filename='ajax-loader_b.gif') }}' height=24 /></center>";
 	      if (str==""){
 		     document.getElementById("txtHint").innerHTML="";
 		     return;
@@ -100,7 +100,7 @@ function getAlotRooms(stuid, hos) {
 
 // function to allot room to a student
 function finalAllotRoom(stuid, hos, room_no) {
-	document.getElementById(stuid + 'b').innerHTML = "<center><img src='../images/ajax-loader_b.gif' height=24 /></center>'";
+	document.getElementById(stuid + 'b').innerHTML = "<center><img src='{{ url_for('static', filename='ajax-loader_b.gif') }}' height=24 /></center>'";
 	if (stuid == "") {
 		document.getElementById(stuid + 'b').innerHTML = "error";
 		return;
@@ -126,7 +126,7 @@ function finalAllotRoom(stuid, hos, room_no) {
 function delAllotment(stuid) {
 	var r = confirm("Are you sure you want to cancel the allotment of this student?");
 	if (r == true) {
-		document.getElementById(stuid + 'b').innerHTML = "<tr><td colspan=7><center><img src='../images/ajax-loader_b.gif' height=24 /></center></td></tr>'";
+		document.getElementById(stuid + 'b').innerHTML = "<tr><td colspan=7><center><img src='{{ url_for('static', filename='ajax-loader_b.gif') }}' height=24 /></center></td></tr>'";
 		if (stuid == "") {
 			document.getElementById(stuid + 'b').innerHTML = "error";
 			return;
@@ -166,7 +166,7 @@ function addRemark(stuid) {
 function submitRemark(stuid) {
 	var remark_rec = document.getElementById('remarkfield_' + stuid).value;
 
-	document.getElementById(stuid + 'a').innerHTML = "<center><img src='../images/ajax-loader_b.gif' height=24 /></center>";
+	document.getElementById(stuid + 'a').innerHTML = "<center><img src='{{ url_for('static', filename='ajax-loader_b.gif') }}' height=24 /></center>";
 	if (stuid == "") {
 		document.getElementById(stuid + 'a').innerHTML = "error";
 		return;
@@ -225,7 +225,7 @@ function requestBackList(node, case_query) {
 // function to update hostel roll number
 function updatehrollno(stuid) {
 	var rollno_rec = document.getElementById(stuid + 'rollinput').value;
-	document.getElementById(stuid + 'b').innerHTML = "<center><img src='../images/ajax-loader_b.gif' height=24 /></center>";
+	document.getElementById(stuid + 'b').innerHTML = "<center><img src='{{ url_for('static', filename='ajax-loader_b.gif') }}' height=24 /></center>";
 	if (stuid == "") {
 		document.getElementById(stuid + 'b').innerHTML = "error";
 		return;
@@ -308,5 +308,4 @@ function submitallhrollno() {
 	}
 }
 // function to submit hostel roll number ends
-
 
