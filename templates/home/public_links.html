@@ -10,7 +10,6 @@ These links can be accessed by general public and their visiblity can be control
     {% for control in controls %}
     <li>
         <a href="{{ url_for('public.' + control.name.lower()) }}" target="_blank">{{ control.name }} form</a>
-        <i class="fa fa-external-link-alt"></i>
     </li><br/>
     {% endfor %}
     <!--<li><a href="../feedback.php">Feedback form</a> <i class="fa fa-external-link-alt"></i></li><br/>-->
