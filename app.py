@@ -15,7 +15,7 @@ def app_index():
 
 @app.before_request
 def before_request():
-    if 'username' not in session and not request.endpoint.startswith('public'):
+    if 'username' not in session and '/public/' not in request.url:
         return redirect(url_for('public.index'))
 
 
