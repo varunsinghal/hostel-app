@@ -1,7 +1,7 @@
 # hostel-app/models.py
+import datetime
 
-
-from sqlalchemy import Column, String, Integer, Sequence, Float, ForeignKey
+from sqlalchemy import Column, String, Integer, Sequence, Float, ForeignKey, DateTime
 from sqlalchemy.orm import relationship
 
 from app import db
@@ -119,6 +119,8 @@ class Student(db.Model):
     distance = Column(Float, default=0)
     document = Column(Integer, default=0)
     reallot = Column(Integer)
+    created_on = Column(DateTime, default=datetime.datetime.now)
+    modified_on = Column(DateTime, onupdate=datetime.datetime.now)
 
     def __repr__(self):
         return '<Student %r - %r>' % (self.id, self.name)
