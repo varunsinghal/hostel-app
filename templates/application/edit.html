@@ -1,0 +1,33 @@
+{# _hostel-app/templates/application/view.html_ #}
+
+{% extends "layout.html" %}
+
+{% block body %}
+
+<h1 style="color: #CCC;">Edit Application</h1>
+<br/>
+<h3 style="color: #0A85FF">Application no. {{ student.id }}</h3>
+
+<form action="{{ url_for('application.edit', id=student.id) }}" method="post" name="main">
+    <table>
+        <tr>
+            <td>Submitted on</td>
+            <td><input type="text" disabled value="{{ student.created_on }}"></td>
+        </tr>
+        <tr>
+            <td>Last modified on</td>
+            <td><input type="text" disabled value="{{ student.modified_on }}"></td>
+        </tr>
+        {% for column in columns %}
+        <tr>
+            <td>{{ column.name|replace('_', ' ')|title }}</td>
+            <td><input type="text" name="{{ column.name }}" value="{{ student|attr(column.name)|default('', true) }}"/></td>
+        </tr>
+        {% endfor %}
+        <tr>
+            <td>&ensp;</td>
+            <td><input type="submit" name="submit" value="Update"/></td>
+        </tr>
+    </table>
+</form>
+{% endblock %}

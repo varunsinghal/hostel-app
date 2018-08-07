@@ -1,0 +1,108 @@
+{# _hostel-app/templates/application/verified.html_ #}
+
+{% extends "layout.html" %}
+{% block body %}
+
+<h1><span style="color:#FF3D3D;">Verified Applications</span> <span style="color: #CCC;">- Apply Filter V.2</span></h1>
+<br/>
+
+<div id="form-div">
+    <form action="{{ url_for('application.verified') }}" method="GET">
+
+        <table width="100%">
+            <tr>
+                <td>
+                    Category <br/>
+                    <select name="category" id="form-category">
+                        <option value="">Show all</option>
+                        {% for category_code in category_codes %}
+                        <option value="{{ category_code.name }}" {% if request.args.get(
+                        "category") == category_code.name %} selected {% endif %}>
+                        {{ category_code.name }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </td>
+                <td>
+                    Backs
+                    <small>(Enter number)</small>
+                    <br/>
+                    <input type="text" name="backs" size="3" value="{{ request.args.get('backs')|default('', true) }}"/>
+                </td>
+                <td>
+                    Year of Admission<br/>
+                    <select name="year_of_admn" id="form-yr-admn">
+                        <option value="">Show all</option>
+                        {% for year_of_admn in year_of_admns %}
+                        <option value="{{ year_of_admn.name }}" {% if request.args.get(
+                        'year_of_admn')|int == year_of_admn.name %} selected {% endif %}>
+                        {{ year_of_admn.name }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </td>
+                <td>
+                    Gender<br/>
+                    <select name="gender" id="form-gender">
+                        <option value="">Show all</option>
+                        <option value="MALE" {% if request.args.get(
+                        'gender') == 'MALE' %} selected {% endif %}>Male</option>
+                        <option value="FEMALE" {% if request.args.get(
+                        'gender') == 'FEMALE' %} selected {% endif %}>Female</option>
+                    </select>
+                </td>
+                <td>
+                    Course<br/>
+                    <select name="course" id="form-course">
+                        <option value="">Show all</option>
+                        {% for course in courses %}
+                        <option value="{{ course.name }}" {% if request.args.get(
+                        'course') == course.name %}selected{% endif %}>{{ course.name }}</option>
+                        {% endfor %}
+                    </select>
+                </td>
+                <td>
+                    Allotted<br/>
+                    <select name="allotted" id="form-allotted">
+                        <option value="">Show all</option>
+                        <option value="allotted" {% if request.args.get(
+                        'allotted') == 'allotted' %} selected {% endif %}>Allotted</option>
+                        <option value="nonallotted" {% if request.args.get(
+                        'allotted') == 'nonallotted' %} selected {% endif %}>Not Allotted</option>
+                    </select>
+                </td>
+                <td>
+                    Order<br/>
+                    <select name="order">
+                        <option value="distance" {% if request.args.get(
+                        'order') == 'distance' %} selected {% endif %}>Distanse Descending</option>
+                        <option value="name" {% if request.args.get(
+                        'order') == 'name' %} selected {% endif %}>Name Alphabetical</option>
+                        <option value="timestamp"{% if request.args.get(
+                        'order') == 'timestamp' %} selected {% endif %}>Timestamp</option>
+                    </select>
+                </td>
+                <td>Type:<br>
+                    <select name="reallot">
+                        <option value="">Show all</option>
+                        <option value="0"{% if request.args.get(
+                        'reallot') == '0' %} selected {% endif %}>Registration</option>
+                        <option value="1"{% if request.args.get(
+                        'reallot') == '1' %} selected {% endif %}>Re-allotment</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="submit" name="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<br/><br/>
+
+{% if request.args %}
+{{component.student_data_table(students, search_query)}}
+{% endif %}
+
+{% endblock %}

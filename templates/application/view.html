@@ -1,0 +1,20 @@
+{# _hostel-app/templates/application/edit.html_ #}
+
+{% extends "popup.html" %}
+{% block body %}
+<br/>
+<br/>
+<table>
+    {% for column in columns %}
+    <tr>
+        <td>{{ column.name|replace('_', ' ')|title }}</td>
+        <td>{{ student|attr(column.name) }}</td>
+    </tr>
+
+
+    {% endfor %}
+
+</table>
+
+
+{% endblock %}

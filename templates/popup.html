@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+{# _hostel-app/templates/popup.html_ #}
+
+<html>
+<head>
+    <title>Admin : Hostels Management System</title>
+    <link href="{{ url_for('static', filename='css/main.css') }}" media="all" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" />
+    <script type='text/javascript' src="{{ url_for('static', filename='js/side_functions.js') }}"></script>
+    {% import 'component.html' as component %}
+</head>
+<body>
+<div id="header">
+    <h1>Admin : Hostel Management System</h1>
+</div>
+<div id="main">
+    {% block body %} {% endblock %}
+</div>
+<div id="footer">All rights reserved. Copyrights &copy; 2018.</div>
+</body>
+</html>
