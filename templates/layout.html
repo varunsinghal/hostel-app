@@ -64,6 +64,31 @@
         });
     }
 
+    // function to add remark field within table
+    function addRemark(stuid) {
+        $("#remark_" + stuid).html('<font color="blue">Edit Remark :</font> <input type="text" id="remarkfield_' + stuid + '" value="' + $("#remark_" + stuid + " font span").text().trim() +'" size="100" /> <a href="javascript:void(0);" onClick="submitRemark(' + stuid + ')">Submit</a>');
+    }
+
+    // function to submit remark
+    function submitRemark(stuid) {
+        var dataString = 'remark=' + $('#remarkfield_' + stuid).val() + '&id=' + stuid;
+        $.ajax({
+            type: 'POST',
+            url: "{{url_for('application.add_remark')}}",
+            data: dataString,
+            beforeSend: function(){
+                $("#" + stuid + "b").html("<center><img src='{{ url_for('static', filename='img/ajax-loader_b.gif') }}' height=24 /></center>");
+            },
+            success: function(data){
+                $("#remark_" + stuid).html('<font color="brown"><img src="{{ url_for('static', filename='img/information.png') }}" style="vertical-align: middle;"/>&nbsp; Remark : <span>' + data.remark + '</span> (last updated : ' + data.remark_datetime +')</font>');
+            },
+            complete: function(){
+                $("#" + stuid + "b").html("");
+            }
+
+        });
+    }
+
 </script>
 </body>
 </html>

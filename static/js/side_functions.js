@@ -149,42 +149,7 @@ function delAllotment(stuid) {
 // function to cancel allotment ends
 
 
-// function to add remark field within table
-function addRemark(stuid) {
-	if (document.getElementById('remarks_' + stuid) != null) {
-		var temp = '<font color="blue">Edit Remark :</font> <input type="text" id="remarkfield_' + stuid + '" value="' + document.getElementById('remarks_' + stuid).innerHTML + '" size="100" /> <a href="javascript:void(0);" onClick="submitRemark(' + stuid + ')">Submit</a>';
-		document.getElementById(stuid + 'a').innerHTML = temp;
-	} else {
-		var temp = '<font color="blue">Edit Remark :</font> <input type="text" id="remarkfield_' + stuid + '" value="" size="100" /> <a href="javascript:void(0);" onClick="submitRemark(' + stuid + ')">Submit</a>';
-		document.getElementById(stuid + 'a').innerHTML = temp;
-	}
-}
-// function to add remark field ends
 
-
-// function to submit remark 
-function submitRemark(stuid) {
-	var remark_rec = document.getElementById('remarkfield_' + stuid).value;
-
-	document.getElementById(stuid + 'a').innerHTML = "<center><img src='{{ url_for('static', filename='ajax-loader_b.gif') }}' height=24 /></center>";
-	if (stuid == "") {
-		document.getElementById(stuid + 'a').innerHTML = "error";
-		return;
-	}
-	if (window.XMLHttpRequest) { // code for IE7+, Firefox, Chrome, Opera, Safari
-		xmlhttp = new XMLHttpRequest();
-	} else { // code for IE6, IE5
-		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-	}
-	xmlhttp.onreadystatechange = function () {
-		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-			document.getElementById(stuid + 'a').innerHTML = xmlhttp.responseText;
-		}
-	}
-	xmlhttp.open("POST", "add_remark.php", true);
-	xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	xmlhttp.send("form_no=" + stuid + "&remark_rec=" + remark_rec);
-}
 // function to submit remark ends
 
 

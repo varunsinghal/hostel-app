@@ -5,9 +5,9 @@
     <tr>
         <td style="padding: 10px;">
 
-                <b><span style="color:#CC0000;">Search Results</span></b><br/>
-                Query: {{ search_query|safe}} <br/>
-                Total Search Result : {{ students|length }}
+            <b><span style="color:#CC0000;">Search Results</span></b><br/>
+            Query: {{ search_query|safe}} <br/>
+            Total Search Result : {{ students|length }}
 
         </td>
     </tr>
@@ -70,22 +70,24 @@
             <a href="javascript:void(0);" onClick="delAllotment({{ student.id }});">Cancel Allotment</a>
             <br/>
             <a href="{{ url_for('application.view', id=student.id) }}" target="_blank"
-               onclick="return popitup(&#39;{{ url_for('application.view', id=student.id) }}&#39;)">View Full Details</a> |
+               onclick="return popitup(&#39;{{ url_for('application.view', id=student.id) }}&#39;)">View Full
+                Details</a> |
             <a href="javascript:void(0)" onClick="delStudent({{ student.id }});">Delete</a>
         </td>
     </tr>
     <tr>
-        <td colspan=10 id="{{ student.id }}a">
+        <td colspan="10" id="remark_{{ student.id }}">
             {% if student.remark %}
             <font color="brown">
                 <img src="{{ url_for('static', filename='img/information.png') }}" style="vertical-align: middle;"/>&nbsp;
-                Remark : <span id="">{{ student.remark }}</span>
+                Remark : <span>{{ student.remark }}</span> (last updated : {{ student.remark_datetime }})
             </font>
-            <span>(last added : {{ student.remark_datetime }})</span>
             {% endif %}
         </td>
-    </tr>
 
+        </td>
+
+    </tr>
     <tr>
         <td colspan=10 id="{{ student.id }}b"></td>
     </tr>

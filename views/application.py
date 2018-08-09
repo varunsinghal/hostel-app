@@ -1,5 +1,7 @@
 # hostel-app/views/application.py
-from flask import Blueprint, render_template, request
+import datetime
+
+from flask import Blueprint, render_template, request, jsonify
 from sqlalchemy import distinct
 
 from app import db
@@ -131,3 +133,14 @@ def unverify():
     student.document = 0
     db.session.commit()
     return 'Done successfully.'
+
+
+@application.route('/add_remark', methods=['POST'])
+def add_remark():
+    id = request.form.get('id')
+    remark = request.form.get('remark')
+    student = Student.query.get(id)
+    student.remark = remark
+    student.remark_datetime = datetime.datetime.now()
+    db.session.commit()
+    return jsonify({'remark': student.remark, 'remark_datetime': student.remark_datetime})
