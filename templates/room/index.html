@@ -3,6 +3,29 @@
 {% extends "layout.html" %}
 {% block body %}
 <center><h1 style='color:#ccc;'>Hostel Room Management</h1></center><br/><br/>
+
+
+<form action="{{ url_for('room.index') }}" method="get" name="main">
+
+    Manage rooms of :<br><br>
+<center>
+    <select name="hostel">
+        <option value="" disabled selected>Select Hostel</option>
+        {% for hostel in hostels %}
+        <option value="{{ hostel.name }}" {% if request.args.get('hostel') == hostel.name %} selected {% endif %}>
+        {{ hostel.name }}
+        </option>
+        {% endfor %}
+    </select>
+    &nbsp;&nbsp;&nbsp;
+    <input type="submit" value="Manage"/>
+</center>
+
+</form>
+
+<br/>
+
+{% if request.args %}
 <table width=100%>
     <tr>
         <td style="text-align:right;">
@@ -13,8 +36,7 @@
     </tr>
 </table>
 
-{% for hostel_name, room_list in rooms.items() %}
-<h2 style='color:#8AC4FF;'>{{ hostel_name }} | Count - {{ room_list|length }}</h2>
+<h2 style='color:#8AC4FF;'>{{ request.args.get('hostel')}} | Count - {{ rooms|length }}</h2>
 <hr>
 <table width=100%>
     <tr>
@@ -24,7 +46,9 @@
         <th>Alloted</th>
         <th>Actions</th>
     </tr>
-    {% for hostel, room_no, capacity, occupants in room_list %}
+    {% for hostel, room_no, capacity, occupants in rooms %}
+
+
     <tr>
         <td>{{ room_no }}</td>
         <td>{{ hostel }}</td>
@@ -49,7 +73,6 @@
 </table>
 <hr>
 <br>
-{% endfor %}
-
+{% endif %}
 
 {% endblock %}

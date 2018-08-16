@@ -124,3 +124,7 @@ td, th{
     padding: 5px;
     max-width: 200px;
 }
+
+select{
+    padding: 2px;
+}

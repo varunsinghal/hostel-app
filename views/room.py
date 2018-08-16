@@ -1,5 +1,5 @@
 # views/room.py
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request
 from sqlalchemy import distinct
 
 from app import db
@@ -10,13 +10,12 @@ room = Blueprint('room', __name__)
 
 @room.route('/')
 def index():
-    rooms = {}
-    hostels = db.session.query(distinct(Room.hostel).label('name'))
-    for hostel in hostels:
-        print(hostel.name)
-        rooms[hostel.name] = db.session.query(Room.hostel, Room.room_no, Room.capacity, db.func.count(Room.students))\
-            .filter(Room.hostel == hostel.name).group_by(Room.hostel, Room.room_no, Room.capacity).all()
-    context = {'rooms': rooms}
+    context = {'hostels': db.session.query(distinct(Room.hostel).label('name'))}
+    hostel_name = request.args.get('hostel', default=None, type=str)
+    if hostel_name:
+        rooms = db.session.query(Room.hostel, Room.room_no, Room.capacity, db.func.count(Room.students)) \
+            .filter(Room.hostel == hostel_name).group_by(Room.hostel, Room.room_no, Room.capacity).all()
+        context['rooms'] = rooms
     return render_template('room/index.html', **context)
 
 
