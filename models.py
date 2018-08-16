@@ -31,7 +31,7 @@ class Room(db.Model):
     capacity = Column(Integer, default=0)
     gender = Column(String(25))
     # virtual column
-    students = relationship('Student', backref='room')
+    students = relationship('Student', backref='room', lazy='dynamic')
 
     def __repr__(self):
         return '<Room %r %r - %r>' % (self.gender, self.hostel, self.room_no)

@@ -16,7 +16,7 @@
     <div class="menu">
         <ul>
             <li><a href="{{ url_for('public.logout') }}">Logout</a></li>
-            <li><a href="hostel_room_management.php">Manage Rooms</a></li>
+            <li><a href="{{ url_for('room.index') }}">Manage Rooms</a></li>
             <li><a href="{{ url_for('application.verified') }}">Verified Applications</a></li>
             <li><a href="{{ url_for('application.index') }}">All Applications</a></li>
             <li><a href="{{ url_for('home.search') }}">Search</a></li>
@@ -29,6 +29,15 @@
 <div id="footer">All rights reserved. Copyrights &copy; 2018.</div>
 <script type='text/javascript' src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
 <script>
+    // function to pop out a custom window
+    function popitup(url) {
+	    newwindow = window.open(url, 'name', 'scrollbars=yes,height=500,width=800');
+	    if (window.focus) {
+		    newwindow.focus()
+	    }
+	    return false;
+    }
+
     function verifyStudent(stuid){
         $.ajax({
             type: 'POST',
@@ -88,6 +97,7 @@
 
         });
     }
+
 
 </script>
 </body>
