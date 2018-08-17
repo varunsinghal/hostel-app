@@ -19,8 +19,8 @@ def index():
 def add():
     context = {}
     if request.form:
-        request.form['password'] = generate_password_hash(request.form.get('password'))
         new_user = User(**request.form.to_dict())
+        new_user.password = generate_password_hash(request.form.get('password'))
         db.session.add(new_user)
         db.session.commit()
         context['message'] = '&#9728; User has been added successfully.'

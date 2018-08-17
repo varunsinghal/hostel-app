@@ -1,0 +1,78 @@
+{# _hostel-app/templates/room/index.html_ #}
+
+{% extends "layout.html" %}
+{% block body %}
+<center><h1 style='color:#ccc;'>Hostel Room Management</h1></center><br/><br/>
+
+
+<form action="{{ url_for('room.index') }}" method="get" name="main">
+
+    Manage rooms of :<br><br>
+<center>
+    <select name="hostel">
+        <option value="" disabled selected>Select Hostel</option>
+        {% for hostel in hostels %}
+        <option value="{{ hostel.name }}" {% if request.args.get('hostel') == hostel.name %} selected {% endif %}>
+        {{ hostel.name }}
+        </option>
+        {% endfor %}
+    </select>
+    &nbsp;&nbsp;&nbsp;
+    <input type="submit" value="Manage"/>
+</center>
+
+</form>
+
+<br/>
+
+{% if request.args %}
+<table width=100%>
+    <tr>
+        <td style="text-align:right;">
+            <h3>
+                <a href="" target="_blank" onclick="return popitup(&#39;{{ url_for('room.add') }}&#39;)">+ Add Rooms</a>
+            </h3>
+        </td>
+    </tr>
+</table>
+
+<h2 style='color:#8AC4FF;'>{{ request.args.get('hostel')}} | Count - {{ rooms|length }}</h2>
+<hr>
+<table width=100%>
+    <tr>
+        <th>Room No.</th>
+        <th>Hostel</th>
+        <th>Room Capacity</th>
+        <th>Alloted</th>
+        <th>Actions</th>
+    </tr>
+    {% for hostel, room_no, capacity, occupants in rooms %}
+
+
+    <tr>
+        <td>{{ room_no }}</td>
+        <td>{{ hostel }}</td>
+        <td>{{ capacity }}</td>
+        <td>{% if capacity == occupants %}
+            <img src="{{ url_for('static', filename='img/accept.png') }}" alt="verified" name="verified"/>
+            {% else %}
+            <img src="{{ url_for('static', filename='img/exclamation.png') }}" alt="not verified" name="not verified"/>
+            {% endif %}
+        </td>
+        <td>
+            <a href="" target="_blank"
+               onclick="return popitup(&#39;{{ url_for('room.edit', room_no=room_no, hostel=hostel) }}&#39;)">
+                Edit Details</a>
+            |
+            <a href="javascript:void(0);" onClick="delRoomByname('{{ room_no }}', '{{ hostel }}');">
+                Delete Room</a>
+
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+<hr>
+<br>
+{% endif %}
+
+{% endblock %}

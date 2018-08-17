@@ -30,6 +30,11 @@ class Room(db.Model):
     room_no = Column(String(80), nullable=False)
     capacity = Column(Integer, default=0)
     gender = Column(String(25))
+    # virtual column
+    students = relationship('Student', backref='room', lazy='dynamic')
+
+    def __repr__(self):
+        return '<Room %r %r - %r>' % (self.gender, self.hostel, self.room_no)
 
 
 class Student(db.Model):
@@ -40,7 +45,6 @@ class Student(db.Model):
 
     # hostel details
     room_id = Column(Integer, ForeignKey('room.id'))
-    current_room = relationship("Room", backref="student")
     last_room = Column(String(80))
     hostel_roll_no = Column(String(80))
 

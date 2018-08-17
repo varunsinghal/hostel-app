@@ -16,7 +16,7 @@
     <div class="menu">
         <ul>
             <li><a href="{{ url_for('public.logout') }}">Logout</a></li>
-            <li><a href="hostel_room_management.php">Manage Rooms</a></li>
+            <li><a href="{{ url_for('room.index') }}">Manage Rooms</a></li>
             <li><a href="{{ url_for('application.verified') }}">Verified Applications</a></li>
             <li><a href="{{ url_for('application.index') }}">All Applications</a></li>
             <li><a href="{{ url_for('home.search') }}">Search</a></li>
@@ -29,6 +29,15 @@
 <div id="footer">All rights reserved. Copyrights &copy; 2018.</div>
 <script type='text/javascript' src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
 <script>
+    // function to pop out a custom window
+    function popitup(url) {
+	    newwindow = window.open(url, 'name', 'scrollbars=yes,height=500,width=800');
+	    if (window.focus) {
+		    newwindow.focus()
+	    }
+	    return false;
+    }
+
     function verifyStudent(stuid){
         $.ajax({
             type: 'POST',
@@ -63,6 +72,32 @@
 
         });
     }
+
+    // function to add remark field within table
+    function addRemark(stuid) {
+        $("#remark_" + stuid).html('<font color="blue">Edit Remark :</font> <input type="text" id="remarkfield_' + stuid + '" value="' + $("#remark_" + stuid + " font span").text().trim() +'" size="100" /> <a href="javascript:void(0);" onClick="submitRemark(' + stuid + ')">Submit</a>');
+    }
+
+    // function to submit remark
+    function submitRemark(stuid) {
+        var dataString = 'remark=' + $('#remarkfield_' + stuid).val() + '&id=' + stuid;
+        $.ajax({
+            type: 'POST',
+            url: "{{url_for('application.add_remark')}}",
+            data: dataString,
+            beforeSend: function(){
+                $("#" + stuid + "b").html("<center><img src='{{ url_for('static', filename='img/ajax-loader_b.gif') }}' height=24 /></center>");
+            },
+            success: function(data){
+                $("#remark_" + stuid).html('<font color="brown"><img src="{{ url_for('static', filename='img/information.png') }}" style="vertical-align: middle;"/>&nbsp; Remark : <span>' + data.remark + '</span> (last updated : ' + data.remark_datetime +')</font>');
+            },
+            complete: function(){
+                $("#" + stuid + "b").html("");
+            }
+
+        });
+    }
+
 
 </script>
 </body>
